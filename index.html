@@ -1,272 +1,181 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-	
-	  <!-- Basic Page Needs
-	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	  <meta charset="utf-8">
-	  <title>Zachary Jordan</title>
-	  <meta name="description" content="">
-	  <meta name="author" content="">
-	
-	  <!-- Mobile Specific Metas
-	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	 
-	  <!-- CSS
-	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	  <link rel="stylesheet" href="css/normalize.css" />
-	  <link rel="stylesheet" href="css/skeleton.css" />
-	  <link rel = "stylesheet" href = "css/style.css" />
-	  <link rel = "stylesheet" href = "css/animate.css" />
-	  <!-- Favicon
-	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	  <link rel="shortcut icon" href="img/logo.ico" />
-	  
-	  <script rel = "text/javascript" src="js/jquery-1.11.1.js"></script>
-	  <script type="text/javascript" src="js/smoothscroll.js"></script>
-	  <script type = "text/javascript" src = "js/script.js"></script>
-	  
-	  
-	</head>
-	<body>
-		<header>
-		  <div class="full header txt-blue">
-		    <div class="header-title">
-		      <h2 class = "no_change_hover">Hello! My name is </h2>
-		      <h1 class = "no_change_hover">Zachary Jordan</h1>
-		    </div>
-			
-		<a href = "#about_me" class = "smoothScroll">
-			<svg class="arrows">
-				<path class="a3" d="M0 40 L30 72 L60 40"></path>
-			</svg>
-		</a>
- 			</div>
-		</header>
-		
-		<div id = "about_me">
-			<div id = "content_box">I write beautiful and functional apps and websites in order to make people's lives more enjoyable and simple. I follow an organized process when I create:</div>
-		</div>
-		
-		<div id = "about_me_cont">
-			
-			<div id = "abs">
-			<div id = "circle_one">
-				<img src = "img/design.png" class = "icon" />
-				<div id = "icon_text" class = "middle">Develop</div>
-				<div id = "icon_info_box">I approach each project as if design and programming are one and the same. This enables my projects to be as visually appealing and easy to use as they are functional.</div>
-			</div>
-		</div>
-			
-			<div id = "circle_two">
-				<img src = "img/research.png" class = "icon move_left" />
-				<div id = "icon_text_left">Research</div>
-				<div id = "icon_info_box">I do thorough research into what each project requires before I even begin programming. This allows me to create programs that are adaptive to the needs of each individual effort.</div>
-			</div>
-			
-			<div id = "circle_three">
-				<img src = "img/develop.png" class = "icon" />
-				<div id = "icon_text">Deploy</div>
-				<div id = "icon_info_box_left">I have been involved with deployment on a variety of platforms to ensure that I'm familiar with it all. Wherever my project can best reach people is where that project ends up.</div>
-			</div>
-			
-		</div>
-		
-		
-		<div id = "my_work">
-			
-			<div id = "my_apps_text" class = "no_change_hover">
-				My Apps	
-			</div>
-			
-			<div id = "left_box" class = "one app app_one" onClick = "modal_enter('modal1')">
-				<div id = "header_box">Don't Touch Anything</div>
-					<img src = "img/touch.png" id = "touch" class = "icon_image" onMouseOver = "app_enlarge('touch')" onMouseOut = "app_shrink('touch')" />
-				<div id = "explain_box">A game about dodging blocks and collecting coins.</div>
-				
-			</div>
-			
-			<div id = "right_box" class = "two app app_two" onClick = "modal_enter('modal2')">
-				<div id = "header_box">Student Companion</div>
-				<img src = "img/logoStudent.png" id = "student" class = "icon_image" onMouseOver = "app_enlarge('student')" onMouseOut = "app_shrink('student')" />
-				<div id = "explain_box">A personal toolbox of school related resources.</div>
-			</div>
-			
-			<div id = "left_box" class = "three app app_layer1" onClick = "modal_enter('modal3')">
-				<div id = "header_box">Lunarcy - A Moon Exploration</div>
-				<img src = "img/moonIcon.png" id = "moon" class = "icon_image" onMouseOver = "app_enlarge('moon')" onMouseOut = "app_shrink('moon')" />
-				<div id = "explain_box">An interactive tour of the moon and its features.</div>
-			</div>
-			
-			<div id = "right_box" class = "one app app_layer1" onClick = "modal_enter('modal4')">
-				<div id = "header_box">Easy Sleep</div>
-				<img src = "img/sleep.png" id = "crypto" class = "icon_image" onMouseOver = "app_enlarge('crypto')" onMouseOut = "app_shrink('crypto')"/>
-				<div id = "explain_box">Say goodbye to groggy mornings.</div>
-			</div>
-			
-			<div id = "left_box" class = "two app app_layer2" onClick = "modal_enter('modal5')">
-				<div id = "header_box">The Cure It Project</div>
-				<img src = "img/question.png" id = "cancer" class = "icon_image" onMouseOver = "app_enlarge('cancer')" onMouseOut = "app_shrink('cancer')" />
-				<div id = "explain_box">A mobile hub for the fight against cancer.</div>
-			</div>
-			
-			<div id = "right_box" class = "three app app_layer2">
-				<div id = "header_box">Coming Soon</div>
-				<img src = "img/question.png" id = "sleep" class = "icon_image" onMouseOver = "app_enlarge('sleep')" onMouseOut = "app_shrink('sleep')" />
-				<div id = "explain_box">There's always more to come.</div>
-			</div>
-			
-			<div id = "left_box" class = "one app app_layer3" onclick= "modal_enter('modal6')">
-				<div id = "header_box">The Sea</div>
-				<img src = "img/thesea.jpg" id = "zach" class = "icon_image" onMouseOver = "app_enlarge('zach')" onMouseOut = "app_shrink('zach')" />
-				<div id = "explain_box">Exploring the ocean's deepest depths.</div>
-			</div>
-			
-			<div id = "my_websites_text" class = "no_change_hover">
-				My Websites
-			</div>
-			<div id = "right_box" class = "two app app_layer3" onClick = "modal_enter('modal7')">
-				<div id = "header_box">The Cure It Project</div>
-				<img src = "img/question.png" id = "cancer2" class = "icon_image" onMouseOver = "app_enlarge('cancer2')" onMouseOut = "app_shrink('cancer2')" />
-				<div id = "explain_box">Cancer education made simple for all.</div>
-			</div>
-			
-			<div id = "left_box" class = "three app app_layer4" onClick = "modal_enter('modal8')">
-				<div id = "header_box">Schaumburg Flying Club</div>
-				<img src = "img/close.jpg" id = "flight" class = "icon_image" onMouseOver = "app_enlarge('flight')" onMouseOut = "app_shrink('flight')" />
-				<div id = "explain_box">Taking to the skies at a fair price.</div>
-			</div>
-			
-			<div id = "right_box" class = "one app app_layer4">
-				<div id = "header_box">Coming Soon</div>
-				<img src = "img/logoStudent.png" id = "deep" class = "icon_image" onMouseOver = "app_enlarge('deep')" onMouseOut = "app_shrink('deep')" />
-				<div id = "explain_box">There's always more to come.</div>
-			</div>
-		</div>
-		
-		
-		<div id = "topbox_explain">
-			<div id = "topbox_text">My Company</div>
-			<img src = "img/logo.png" id = "logo_pic"/>
-			
-			<div id = "topbox_text_body">I co-founded Topbox Software when I was 16 years old with my friend, Ishan Taparia. We regularly produce apps, websites, games, and everything in between...most of it for free. Click the buttons below to check us out.</div>
-			
-			<div class = "center">
-				
-				<div id = "app_store" id = "button" class = "app_store_color buttons" onClick = "alert('Coming Soon!')">App Store</div>
-				<div id = "play_store" id = "button" class = "play_store_color buttons small_font" onClick = "window.open('https://play.google.com/store/apps/developer?id=TopBox%20Software&hl=en')">Google Play Store</div>
-			</div>
-			
-			<div id = "contact_me" class = "center;">You can contact me at TopboxsoftwareOfficial@gmail.com</div>
-			
-			<div id = "footer_element">&#169 Copyright 2015 Zachary Jordan. All Rights Reserved</div>	
-			<div id = "bottom_padding"></div>
-		</div>
-		
-		<div id = "center_container">
-			
-		<div id = "modal1" class = "absolute_center center_container one">
-			
-			<div id = "modal_header">Don't Touch Anything</div>
-			<img src = "img/touch.png" id = "modal_image" />
-			<div id = "modal_body_text">Don't Touch Anything is a game about dodging obstacles and collecting coins. It's simple, fast, and fun. This was my first 
-				iPhone app, and the first game that I actually decided to make public. </div>
-				<div id = "pack">
-					
-					<div id = "modal_button" style = "width:400px;"class = "app_store_color">This app is currently offline.</div>
-					
-				
-			    </div>
-		</div>
-		
-		<div id = "modal2" class = "absolute_center center_container" style = "background-color:#2196F3;">
-			<div id = "modal_header">Student Companion</div>
-			<img src = "img/logoStudent.png" id = "modal_image" />
-			<div id = "modal_body_text">Student Companion is an app that grants students easy access to a wide variety of tools to make their educational 
-				experience more streamlined and fun. It provides everything from test and grade calculation tools to tips that help students 
-				succeed on the ACT. </div>
-				<div id = "pack">
-					
-					<div id = "modal_button" style = "width: 250px;" class = "play_store_color" onClick = "window.open('https://play.google.com/store/apps/details?id=com.apexsoftware.studentcompanion')">Play Store</div>
-				
-			    </div>
-		</div>
-		
-		<div id = "modal3" class = "absolute_center center_container" style = "background-color:#FFA726;">
-			<div id = "modal_header">Lunarcy - A Moon Exploration</div>
-			<img src = "img/moonIcon.png" id = "modal_image" />
-			<div id = "modal_body_text">Lunarcy is an interactive educational experience that walks curious users through a guided tour of 
-				our closest natural satellite. It allowed me to practice my animation and design skills and challenged
-				me to keep the content at an easily digestable level.  </div>
-				<div id = "pack">
-					
-					<div id = "modal_button" style = "width:400px;"class = "app_store_color">This app is currently offline.</div>
-					
-			    </div>
-			</div>
-		
-			<div id = "modal4" class = "absolute_center center_container">
-			<div id = "modal_header">Easy Sleep</div>
-			<img src = "img/sleep.png" id = "modal_image" />
-			<div id = "modal_body_text">Easy Sleep is an app that seeks to make groggy mornings a thing of the past. It uses precise algorithms to estimate the duration of an individuals REM sleep to pinpoint the optimal time for said individual to wake up.  </div>
-				<div id = "pack">
-					
-					<div id = "modal_button" style = "width:400px;"class = "app_store_color">This app is coming soon.</div>
-					
-			    </div>
-			</div>
-			
-			<div id = "modal5" class = "absolute_center center_container" style = "background-color:#2196F3;">
-			<div id = "modal_header">The Cure It Project</div>
-			<img src = "img/question.png" id = "modal_image" />
-			<div id = "modal_body_text">The product of over a year of development, The Cure It Project mobile app seeks to reinvent public access to information regarding cancer by making it simple to understand and enjoyable to learn about.  </div>
-				<div id = "pack">
-					
-					<div id = "modal_button" style = "width:400px;"class = "app_store_color">This app is coming soon.</div>
-					
-			    </div>
-			</div>
-			
-			<div id = "modal6" class = "absolute_center center_container">
-			<div id = "modal_header">The Sea</div>
-			<img src = "img/thesea.jpg" id = "modal_image" />
-			<div id = "modal_body_text">The Sea is an interactive exploration of the Mariana Trench, the deepest currently known point in the sea. The entire trench is represented to scale, meaning that the markers that denote the current depth are true to how deep the trench actually is in real life.</div>
-				<div id = "pack">
-					
-					<div id = "modal_button" style = "width:250px;" class = "app_store_color" onClick = "window.location = 'index2.html'">Check it out</div>
-					
-			    </div>
-			</div>
-			
-			<div id = "modal7" class = "absolute_center center_container" style = "background-color:#2196F3;">
-			<div id = "modal_header">The Cure It Project</div>
-			<img src = "img/question.png" id = "modal_image" />
-			<div id = "modal_body_text">The Cure It Project desktop website is a collection and simplification of the most powerful resources currently avaliable to learn about and combat the threat of cancer. It serves to instruct and inform users through a single medium, and was my first experience with a long term programming project.</div>
-				<div id = "pack">
-					
-					<div id = "modal_button" style = "width: 400px;" class = "app_store_color">This website coming soon</div>
-				
-			    </div>
-		</div>
-		
-		<div id = "modal8" class = "absolute_center center_container" style = "background-color:#FFA726;">
-			<div id = "modal_header">Schaumburg Flying Club</div>
-			<img src = "img/question.png" id = "modal_image" />
-			<div id = "modal_body_text">A website that serves to promote the Schaumburg Flying Club. This was my first contracting job, and the first one that I was given instructions as to a design that I should strive for.</div>
-				<div id = "pack">
-					
-					<div id = "modal_button" style = "width: 400px;" class = "app_store_color">This website coming soon</div>
-				
-			    </div>
-		</div>
-		
-			
-			
-	</div>
-		
-	<div id = "engage_scrolling" class = "inactive" onClick = "disengage_modal();"></div>
-		
-		
-		
-	</body>
-</html>
+<!DOCTYPE HTML5>
+    <html>
+        <head>
+            <title>Zachary Jordan</title>
+            <link rel= "stylesheet" type= "text/css" href= "style.css" />
+            <link rel= "stylesheet" type= "text/css" href= "normalize.css" />
+            <link rel= "stylesheet" type= "text/css" href= "skeleton.css" />
+            <link rel= "stylesheet" type= "text/css" href= "sweetalert.css">
+            <link rel= "shortcut icon" href= "logo.ico">
+            
+            <script src = "script.js"></script>
+            <script src = "jquery-1.11.1.js"></script>
+            <script src = "smoothscroll.js"></script>
+            <script src= "sweetalert.min.js"></script>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+        <body>
+            
+            <div id = "body_content">
+                <div id = "main_header">ZacharyJordan.github.io</div>
+                
+                <div id = "options_menu" class = "no_selection">
+                    <a href = "#first_anchor" class = "smoothScroll color_reset"><div id = "option" class = "smoothScroll">About</div></a>
+                    <a href = "#second_anchor" class = "smoothScroll color_reset first_responsive"><div id = "option" class = "smoothScroll">Apps</div></a>
+                    <span id = "group_two">
+                        <a href = "#third_anchor" class = "smoothScroll color_reset second_responsive"><div id = "option" class = "smoothScroll">Websites</div></a>
+                        <a href = "#fourth_anchor" class = "smoothScroll color_reset third_responsive"><div id = "option" class = "smoothScroll">Topbox Software</div></a>
+                    </span>
+                </div>
+                
+                
+                <div id = "section_box">
+                    <!-- First anchor point --> 
+                    <div id = "first_anchor"></div>
+                    
+                    <div id = "section_header">About</div>
+                    <div id = "section_content">Hello, my name is Zachary Jordan. I am currently a senior attending <span class = "link" onClick = "open_fremd_page()">William Fremd High School</span>. One of my favorite hobbies is programming, and as such I have extensive experience with developing projects both both designed to be used on the web and off. 
+                        
+                    <br />
+                    <br />
+                        It's very easy to get in touch with me. Just shoot me an email at <a href="mailto:zachjordan0198@gmail.com?Subject=Hello!" target="_top" class = "link">zachjordan0198@gmail.com</a> and we'll get a conversation going in no time. 
+                    </div>
+                    
+                   
+                 <hr class = "horizontal_break" />        
+                </div>
+                
+                 <div id = "section_box">
+                    <!-- Second anchor point --> 
+                    <div id = "second_anchor"></div>
+                     
+                    <div id = "section_header">Apps</div>
+                    <div id = "section_content">
+                        I do my very best to design applications that make people's lives more enjoyable and simple. While this list is by no means exhaustive, it does represent the bulk of my formally published apps. 
+                        
+                        
+                         <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "touch()">Don't Touch Anything</span>
+                             <span id = "app_date">July 2014 - July 2015 [Offline]</span>
+                             <br />
+                             <img src = "touch.png" id = "project_picture"/>
+                             <span id = "app_description">A game about dodging obstacles and collecting coins. It's simple, fast, and fun.</span>
+                            
+                         </div>
+                        
+                         <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "openStudentIOS()">Student Companion</span>
+                             <span id = "app_date">August 2014 - Present</span>
+                             <br />
+                             <img src = "logoStudent.png" id = "project_picture"/>
+                             <span id = "app_description">An interactive toolset that provides students access to a wide set of educational resources.</span>
+                            
+                         </div>
+                        
+                         <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "openMoonIOS()">Lunarcy - A Moon Exploration</span>
+                             <span id = "app_date">November 2014 - Present</span>
+                             <br />
+                             <img src = "moonIcon.png" id = "project_picture"/>
+                             <span id = "app_description">A guided tour of our closest natural satellite.</span>
+                            
+                         </div>
+                        
+                          <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "openEasySleepAndroid()">Easy Sleep</span>
+                             <span id = "app_date">July 2015</span>
+                             <br />
+                             <img src = "easysleep.png" id = "project_picture_norad"/>
+                             <span id = "app_description">Doing away with groggy mornings.</span>
+                            
+                         </div>
+                        
+                         
+                          <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "openSlowCookAndroid()">Slow Cook</span>
+                             <span id = "app_date">July 2015</span>
+                             <br />
+                             <img src = "slowcook.png" id = "project_picture"/>
+                             <span id = "app_description">Making better tasting meals possible for everyone.</span>
+                            
+                         </div>
+                        
+                         <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "comingSoon()">The Cure It Project</span>
+                             <span id = "app_date"> Coming Soon</span>
+                             <br />
+                             <img src = "question.png" id = "project_picture"/>
+                             <span id = "app_description">A mobile hub for the fight against cancer.</span>
+                            
+                         </div>
+                    </div>
+                     <br />
+                     
+                        <hr class = "horizontal_break" style = "position:relative;top:-28px;"/>
+                </div>
+                
+                 <div id = "section_box" style = "position:relative;top:40px;">
+                    <!-- Third anchor point --> 
+                    <div id = "third_anchor"></div>
+                     
+                    <div id = "section_header">Websites</div>
+                    <div id = "section_content">
+                        I am actively involved with the development of attractive, functional websites that are suited to function properly on a variety of devices. From personal projects to contract work, I enjoy it all. 
+                        
+                         <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "window.open('Sea/thesea.html')">The Sea</span>
+                             <span id = "app_date">March 2015</span>
+                             <br />
+                             <img src = "wave.png" id = "project_picture"/>
+                             <span id = "app_description">An interactive exploration of the ocean's greatest depths.</span>
+                            
+                         </div>
+                        
+                        <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "location.reload();">ZacharyJordan.github.io</span>
+                             <span id = "app_date">August 2015</span>
+                             <br />
+                             <img src = "logo.png" id = "project_picture_norad"/>
+                             <span id = "app_description">My personal portfolio. Also my first attempt at a fully responsive project.</span>
+                         </div>
+                        
+                         <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "comingSoon()">The Cure It Project</span>
+                            
+                             
+                             <span id = "app_date">Coming Soon</span>
+                            <br /> 
+                             <img src = "question.png" id = "project_picture"/>
+                             <span id = "app_description">A revolution in cancer education.</span>
+                         </div>
+                    </div>
+                     <br />
+                     
+                        <hr class = "horizontal_break" style = "position:relative;top:-28px;"/>
+                </div>
+                
+                <div id = "section_box" style = "position:relative;top:8px;">
+                    <!-- Fourth anchor point --> 
+                    <div id = "fourth_anchor"></div>
+                     
+                    <div id = "section_header">Topbox Software</div>
+                    <div id = "section_content">
+                        I co-founded Topbox Software when I was 16 years old with my friend, <span class = "link" onClick = "window.open('http://itaparia.github.io')">Ishan Taparia</span>. We regularly produce apps, websites, games, and everything in between...most of it for free. You can click the buttons below to check us out.  
+                        
+                        <div id = "center_buttons">
+                            <div id = "store_button" class = "app_store_color no_selection slight_margin" onClick = " swal({   title: 'Coming Soon!',   text: 'This button will be functional soon!',   allowOutsideClick: true,  type: 'error',   confirmButtonText:'Alright' });">App Store</div>
+                            <div id = "store_button" class = "play_store_color no_selection" onClick = "window.open('https://play.google.com/store/apps/developer?id=TopBox%20Software&hl=en')">Google Play Store</div>
+                        </div>
+                        <hr class = "horizontal_break" style = "position:relative;top:0px;"/>
+                </div>
+                    
+                    <div id = "footer_element">&#169 
+                        Copyright 2015 Zachary Jordan. All Rights Reserved
+                    </div>
+                    <br />
+                
+                
+            </div>
+        </body>
+    </html>
