@@ -274,6 +274,11 @@ and (max-device-width : 667px)
         text-align:center;
     }
     
+    #option:active
+    {
+        background-color: #EAECEE;   
+    }
+    
     #app_date
     {
         display:block;
@@ -350,6 +355,11 @@ and (max-device-width : 568px)
         height:50px;
         line-height: 50px;
         text-align:center;
+    }
+    
+    #option:active
+    {
+        background-color: #EAECEE;   
     }
     
     
