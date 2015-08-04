@@ -206,7 +206,7 @@ a
 /* Responsive Code Below */
 
 /* General Scaling */
-@media screen and (max-width: 1099px) and (min-width: 469px) 
+@media screen and (max-width: 1180px) and (min-width: 469px) 
 {
     #options_menu
     {
@@ -238,6 +238,7 @@ a
     
 }
 
+/* iPhone 5 and iPhone 5s */
 @media screen and (max-width: 650px) and (min-width: 555px) 
 {
     #store_button
@@ -246,10 +247,54 @@ a
     }
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px)
+and (orientation : landscape)
+{ 
+    
+    #option
+    {
+        left:1px;
+    }
+    
+    #options_menu
+    {
+
+       font-size:3.5vh;
+    }
+    
+    #center_buttons
+    {
+        text-align:center;
+    }
+    
+    #store_button
+    {
+        position: relative;
+        top:20px;
+        display:inline-block;
+        line-height:55px;
+        text-align:center;
+        font-weight:300;
+        font-size:23px;
+        color:white;
+        height:55px;
+        width:205px;
+    }
+    
+    .slight_margin
+    {
+        margin-right:0px;
+    }
+
+}
+
 /* Smaller Phones */
 @media only screen 
 and (min-device-width : 1px) 
 and (max-device-width : 667px) 
+and (orientation : portrait)
 { 
     
     #main_header
@@ -321,12 +366,24 @@ and (max-device-width : 667px)
     {
         margin-right:0px;
     }
+    
+    #footer_element
+    {
+        text-align:center;
+    }
+    
+    .center_when_small
+    {
+        content: "\a";
+        white-space: pre;
+    }
 }
 
 /* Larger Phones */
 @media only screen 
 and (min-device-width : 326px) 
 and (max-device-width : 568px) 
+and (orientation : portrait)
 { 
    #main_header
     {
@@ -399,3 +456,9 @@ and (max-device-width : 568px)
         margin-right:0px;
     }
 }
+
+/* 
+To Do: 
+- Phone styles in landscape
+
+*/
