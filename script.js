@@ -54,7 +54,7 @@ function openMoonAndroid()
 
 function openEasySleepAndroid()
 {
-    window.open("https://play.google.com/store/apps/details?id=com.topboxSoftware.easysleep");
+    window.open("https://play.google.com/store/apps/details?id=com.topboxSoftware.sleepeasy");
 }
 
 function openSlowCookAndroid()
