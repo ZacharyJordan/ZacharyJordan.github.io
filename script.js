@@ -62,6 +62,11 @@ function openSlowCookAndroid()
     window.open("https://play.google.com/store/apps/details?id=com.topboxSoftware.slowCook");
 }
 
+function cureItDesktop()
+{
+    window.open("http://www.thecureitproject.com");
+}
+
 function comingSoon()
 {
     swal({   title: "Coming Soon!",   text: "This project is coming soon!",   allowOutsideClick: true,  type: "error",   confirmButtonText: "Alright" });

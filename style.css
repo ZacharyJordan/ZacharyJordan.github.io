@@ -137,18 +137,16 @@ a
 #center_buttons
 {
     position: relative;
-    -webkit-box-align:center;
-    -webkit-box-pack:center;
-    display:-webkit-box;    
+   display: table;
+    margin: 0 auto;
 }
 
 #footer_element
 {
     position: relative;
     font-size:14px;
-    -webkit-box-align:center;
-    -webkit-box-pack:center;
-    display:-webkit-box;
+    display: table;
+    margin: 0 auto;
 }
     
 .no_selection
@@ -213,17 +211,15 @@ a
     {
         top:50px;
         left:0px;
-        -webkit-box-align:center;
-        -webkit-box-pack:center;
-        display:-webkit-box;  
+       display: table;
+    margin: 0 auto;
         float:none; 
     }  
     
     #main_header
     {
-        -webkit-box-align:center;
-        -webkit-box-pack:center;
-        display:-webkit-box; 
+        display: table;
+		margin: 0 auto;
     }
     
     #section_header
@@ -302,9 +298,8 @@ and (orientation : portrait)
     {
         font-size:20px;
         position: relative;
-        -webkit-box-align:center;
-        -webkit-box-pack:center;
-        display:-webkit-box;
+        -display: table;
+		margin: 0 auto;
     }
     
     #option
@@ -390,9 +385,8 @@ and (orientation : portrait)
     {
         font-size:24px;
         position: relative;
-        -webkit-box-align:center;
-        -webkit-box-pack:center;
-        display:-webkit-box;
+        display: table;
+		margin: 0 auto;
     }
     
      #app_date
