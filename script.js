@@ -67,6 +67,11 @@ function cureItDesktop()
     window.open("http://www.thecureitproject.com");
 }
 
+function schaumburgFlying()
+{
+    window.open("http://www.schaumburgflyingclub.org");
+}
+
 function comingSoon()
 {
     swal({   title: "Coming Soon!",   text: "This project is coming soon!",   allowOutsideClick: true,  type: "error",   confirmButtonText: "Alright" });
