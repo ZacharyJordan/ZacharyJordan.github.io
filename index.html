@@ -22,11 +22,11 @@
                 
                 <div id = "options_menu" class = "no_selection">
                     <a href = "#first_anchor" class = "smoothScroll color_reset"><div id = "option" class = "smoothScroll">About</div></a>
-                    <a href = "#second_anchor" class = "smoothScroll color_reset first_responsive"><div id = "option" class = "smoothScroll">Projects</div></a>
+                   <a href = "#second_anchor" class = "smoothScroll color_reset second_responsive"><div id = "option" class = "smoothScroll">Projects</div></a>
                     <span id = "group_two">
-                        <!--
-                        <a href = "#third_anchor" class = "smoothScroll color_reset second_responsive"><div id = "option" class = "smoothScroll">Miscellaneous</div></a>
--->
+                        
+                       
+                          <a href = "#third_anchor" class = "smoothScroll color_reset first_responsive"><div id = "option" class = "smoothScroll">Other</div></a>
                         <a href = "#fourth_anchor" class = "smoothScroll color_reset third_responsive"><div id = "option" class = "smoothScroll">Topbox Software</div></a>
                     </span>
                 </div>
@@ -37,7 +37,8 @@
                     <div id = "first_anchor"></div>
                     
                     <div id = "section_header">About</div>
-                    <div id = "section_content">Hello, my name is Zachary Jordan. I am currently a senior attending <span class = "link" onClick = "open_fremd_page()">William Fremd High School</span>. I love to create things, and as such have extensive experience working on a wide range of projects. I try to work with as many disciplines as possible so that I can be familiar with them all. 
+                    <div id = "section_content">Hello, my name is Zachary Jordan. I am currently a freshman attending <span class = "link" onClick = "open_macalester_page()">Macalester College</span>. I love to create things, and as such have extensive experience working on a wide range of projects. I try to work with as many disciplines as possible so that I can be familiar with them all. 
+                        
                         
                     <br />
                     <br />
@@ -48,20 +49,22 @@
                  <hr class = "horizontal_break" />        
                 </div>
                 
-                 <div id = "section_box">
+                 <div id = "section_box" style = "position:relative;top:65px;">
                     <!-- Second anchor point --> 
                     <div id = "second_anchor"></div>
                      
-                    <div id = "section_header">Projects</div>
+                       <div id = "section_header">Projects</div>
                     <div id = "section_content">
                         I am familiar with a variety of cutting-edge programming languages and development technologies. These include: Java, HTML, CSS, Javascript, C#, Objective C, PHP, Unity 5, Cocos2D, Phaser, XNA, Bootstrap and Skeleton Boilerplate.
                         <br />
                         <br />
                         
                         I do my very best to design projects that make people's lives more enjoyable and simple. While this list is by no means exhaustive, it does represent the bulk of my formally published pursuits.
-                        
+                        <br />
+                        <span id = "sub_project_header">Personal Projects</span>
 
                          <div id = "app_box">
+                             
                              <span id = "app_title" class = "link" onClick = "touch()">Don't Touch Anything</span>
                              <span id = "app_date">July 2014 - July 2015 [Offline]</span>
                              <br />
@@ -122,17 +125,9 @@
                              <span id = "app_date">October 2015 - Present</span>
                             <br /> 
                              <img src = "cureit.png" id = "project_picture"/>
-                             <span id = "app_description">A revolution in cancer education.</span>
+                             <span id = "app_description">A reimagining of cancer education.</span>
                          </div>
                         
-                        <div id = "app_box">
-                             <span id = "app_title" class = "link" onClick = "schaumburgFlying()">Schaumburg Flying Club</span>
-                             <span id = "app_date">March 2016 - Present</span>
-                             <br />
-                             <img src = "plane.png" id = "project_picture"/>
-                             <span id = "app_description">Official webpage for Schaumburg's aviation enthusiasts.</span>
-                            
-                         </div>
                         
                          <div id = "app_box">
                              <span id = "app_title" class = "link" onClick = "comingSoon()">The Cure It Project [Mobile]</span>
@@ -143,9 +138,64 @@
                             
                          </div>
                         
+                        <span id = "sub_project_header">Contract Work</span>
+                        <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "schaumburgFlying()">Schaumburg Flying Club</span>
+                             <span id = "app_date">March 2016 - Present</span>
+                             <br />
+                             <img src = "plane.png" id = "project_picture"/>
+                             <span id = "app_description">Official webpage for Schaumburg's aviation enthusiasts.</span>
+                            
+                         </div>
                         
+                        
+
+                   
+                     
+                        
+                </div>
+                     <br />
+                     
+                        <hr class = "horizontal_break" style = "position:relative;top:-28px;"/>
+                </div>
+                     
+                     
+                 <div id = "section_box" style = "position:relative; top:40px;">
+                    <!-- Second anchor point --> 
+                    <div id = "third_anchor"></div>
+                     
+                     <div id = "section_header">Other</div>
+                    <div id = "section_content">
+                        
+                      I've been lucky enough to attend excellent schools that provide great instruction to help me improve my work. I am currently majoring in Computer Science at Macalester College with a minor in Mandarin Chinese.
+                       <br />
+                        <span id = "sub_project_header">Internships</span>
+                         <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "open_ats_page()">Advanced Technology Services</span>
+                             <span id = "app_date">June 2016 - August 2016</span>
+                             <br />
+                             <img src = "phone.png" id = "project_picture"/>
+                             <span id = "app_description">Working with C# and ASP .NET to construct applications.</span>
+                        </div>
+                        
+                       
                          
+                        <span id = "sub_project_header">Education</span>
+                        <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "open_fremd_page()">William Fremd High School</span>
+                             <span id = "app_date">August 2012 - June 2016</span>
+                             <br />
+                             <img src = "fremd.png" id = "project_picture"/>
+                             <span id = "app_description">A high school located in Palatine, Illinois.</span>
+                        </div>
                         
+                        <div id = "app_box">
+                             <span id = "app_title" class = "link" onClick = "open_macalester_page()">Macalester College</span>
+                             <span id = "app_date">August 2016 - Present</span>
+                             <br />
+                             <img src = "mac.png" id = "project_picture"/>
+                             <span id = "app_description">A liberal arts college located in Saint Paul, Minnesota. Computer Science Major, Mandarin Chinese minor.</span>
+                        </div>
                     </div>
                      <br />
                      
@@ -173,7 +223,7 @@
 -->
                 <br />
                 
-                <div id = "section_box" style = "position:relative;top:3px;">
+                <div id = "section_box" style = "position:relative;top:-20px;">
                     <!-- Fourth anchor point --> 
                     <div id = "fourth_anchor"></div>
                      

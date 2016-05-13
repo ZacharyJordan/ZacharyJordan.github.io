@@ -1,3 +1,19 @@
+/*
+
+Font appears too thin when this code is active.
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: all .1s;    
+}
+*/
+
+html *
+{
+    webkit-font-smoothings: subpixel-antialiased;
+}
+
 body
 {
     font-family: 'Avenir Next W01', 'Avenir Next', 'Proxima Nova', 'Myriad Pro', Helvetica, Calibri, sans-serif;
@@ -33,6 +49,16 @@ a
     margin-right:auto;
     max-width:1200px;
    
+}
+
+#sub_project_header
+{
+    position: relative;
+    top:15px;
+    border-bottom: 1px solid #000;
+    
+    padding-bottom: 1px;
+    font-size: 20px;
 }
 
 #options_menu
@@ -243,6 +269,7 @@ a
     {
         width:200px;
     }
+    
 }
 
 @media only screen 
@@ -294,6 +321,12 @@ and (min-device-width : 1px)
 and (max-device-width : 667px) 
 and (orientation : portrait)
 { 
+    #sub_project_header
+    {
+        -webkit-box-align:center;
+        -webkit-box-pack:center;
+        display:-webkit-box;
+    }
     
     #main_header
     {

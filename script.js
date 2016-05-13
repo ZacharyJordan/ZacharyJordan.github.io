@@ -3,6 +3,16 @@ function open_fremd_page()
     window.open("http://fhs.d211.org/");
 }
 
+function open_macalester_page()
+{
+    window.open("http://www.macalester.edu");
+}
+
+function open_ats_page()
+{
+    window.open("https://www.advancedtech.com");
+}
+
 //Android and iOS are flipped
 
 
