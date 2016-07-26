@@ -82,6 +82,11 @@ function schaumburgFlying()
     window.open("http://www.schaumburgflyingclub.org");
 }
 
+function easyEMDR()
+{
+	window.open("http://easyemdr.com");
+}
+
 function comingSoon()
 {
     swal({   title: "Coming Soon!",   text: "This project is coming soon!",   allowOutsideClick: true,  type: "error",   confirmButtonText: "Alright" });
