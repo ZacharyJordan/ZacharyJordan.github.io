@@ -87,6 +87,11 @@ function easyEMDR()
 	window.open("http://easyemdr.com");
 }
 
+function gotIt()
+{
+	window.open("https://www.gotitsoftware.com/#/home");
+}
+
 function comingSoon()
 {
     swal({   title: "Coming Soon!",   text: "This project is coming soon!",   allowOutsideClick: true,  type: "error",   confirmButtonText: "Alright" });
