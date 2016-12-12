@@ -23,6 +23,24 @@ a
 	top:0px;
 }
 
+#left_anchor
+{
+	position: absolute;
+	color:#17202A;
+	font-size:20px;
+	left:10px;
+	top:10px;
+	-webkit-transition: color .3;
+	-moz-transition: color .3;
+	transition: color .3;
+}
+
+#left_anchor:hover
+{
+	cursor:pointer;
+	color:#154360;
+}
+
 #dive_button
 {
 	display: inline-block;
