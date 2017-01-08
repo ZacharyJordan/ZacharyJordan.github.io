@@ -92,6 +92,11 @@ function gotIt()
 	window.open("https://www.gotitsoftware.com/#/home");
 }
 
+function osu()
+{
+	window.open("https://osumpc.github.io/");
+}
+
 function comingSoon()
 {
     swal({   title: "Coming Soon!",   text: "This project is coming soon!",   allowOutsideClick: true,  type: "error",   confirmButtonText: "Alright" });
