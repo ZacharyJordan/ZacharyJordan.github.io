@@ -20,6 +20,21 @@ body
     font-weight: lighter !important;
 }
 
+.img-wrapper
+{
+    position: absolute;
+    text-align: center;
+    margin-bottom:20px;
+    width:100%;
+}
+
+.icon
+{
+    display: inline-block;
+    width:30px;
+    height:30px;
+}
+
 a 
 {
   color:black;
@@ -172,6 +187,7 @@ a
 #footer_element
 {
     position: relative;
+    top:5px;
     font-size:14px;
     display: table;
     margin: 0 auto;
@@ -336,7 +352,7 @@ and (orientation : portrait)
         text-align:center;
         position: relative;
         display: inline-block;
-        background-color:green;
+        
     }
     
     #option
