@@ -271,6 +271,7 @@ a
         width:200px;
     }
     
+    
 }
 
 @media only screen 
@@ -332,9 +333,10 @@ and (orientation : portrait)
     #main_header
     {
         font-size:20px;
+        text-align:center;
         position: relative;
-        -display: table;
-		margin: 0 auto;
+        display: inline-block;
+        background-color:green;
     }
     
     #option

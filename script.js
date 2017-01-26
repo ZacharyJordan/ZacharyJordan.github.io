@@ -37,9 +37,9 @@ function moon()
 		openMoonAndroid();  } });
 }
 
-function touch()
+function offline()
 {
-    swal({   title: "Sorry!",   text: "This app is currently offline! Don't worry, it may come back someday.",   allowOutsideClick: true,  type: "error",   confirmButtonText: "Alright" });
+    swal({   title: "Sorry!",   text: "This project is currently offline! Don't worry, it may come back someday.",   allowOutsideClick: true,  type: "error",   confirmButtonText: "Alright" });
 }
 
 function openStudentAndroid()
