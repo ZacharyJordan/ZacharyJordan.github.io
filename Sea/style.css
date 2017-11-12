@@ -7,14 +7,14 @@
 
 body
 {
-	background-color:#BBDEFB;
-	font-family: 'Avenir Next W01', 'Avenir Next', 'Proxima Nova', 'Myriad Pro', Helvetica, Calibri, sans-serif;
+	background-color:#BBDEFB !important;
+	font-family: 'Avenir Next W01', 'Avenir Next', 'Proxima Nova', 'Myriad Pro', Helvetica, Calibri, sans-serif !important;
 }
 
 a
 {
-	color:black;
-	text-decoration: none;
+	color:black !important;
+	text-decoration: none !important;
 }
 
 #the_top

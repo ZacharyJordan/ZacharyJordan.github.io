@@ -4,13 +4,15 @@
 			<link rel = "stylesheet" href = "style.css" />
 			<link rel="stylesheet" href="animate.css" />
 			<link rel="shortcut icon" href="starfish.ico">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 			
-			<script rel = "text/javascript" src="jquery-1.11.1.js"></script>
-			<script type="text/javascript" src="smoothscroll.js"></script>
+			<script src = "jquery.js"></script>
+			<script src = "jquery-easing.js"></script>
 			<script type = "text/javascript" src = "script.js"></script>
+		
 			<title>The Sea</title>
 		</head>
-		<body>
+		<body data-spy="scroll">
 			<div id = "the_top"> </div>
 			<a href = "http://zacharyjordan.github.io"><div id = "left_anchor">&#8592; More of My Work</div></a>
 			<div id = "the_sun">
@@ -25,14 +27,14 @@
 				<div class = "depth_marker" id = "x1">Depth: 0 Meters</div>
 			</span>
 			
-			<span id = "first_attraction" style = "position:absolute;top:100%;"></span>
+			<span id = "first_attraction" style = "position:absolute;top:100%;font-size:1px;">.</span>
 			<span id = "whale_box_small">
 				<div id = "whale" class = "relative_center"></div>
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At just over 100 meters, this is the maximum diving depth of the blue whale, the largest animal on Earth.</div>
 				<a href = "#second_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "second_attraction" style = "position:absolute;top:200%;"></span>
+			<span id = "second_attraction" style = "position:absolute;top:200%;font-size:1px;">.</span>
 			<span id = "person_box_small">
 				
 					<div id = "person" class = "relative_center"></div>
@@ -40,7 +42,7 @@
 					<a href = "#third_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "third_attraction" style = "position:absolute;top:300%;"></span>
+			<span id = "third_attraction" style = "position:absolute;top:300%;font-size:1px;">.</span>
 			<span id = "person_box">
 				
 					<div id = "person" class = "relative_center"></div>
@@ -48,19 +50,19 @@
 					<a href = "#fourth_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "fourth_attraction" style = "position:absolute;top:600%;"></span>
+			<span id = "fourth_attraction" style = "position:absolute;top:600%;font-size:1px;">.</span>
 			<span id = "twilight_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At about 600 meters beneath the surface, we've arrived at what is known as the Twilight Zone. Temperatures here can be as low as 3.9 degrees celsius!</div>
 				<a href = "#sixth_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "sixth_attraction" style = "position:absolute;top:800%;"></span>
+			<span id = "sixth_attraction" style = "position:absolute;top:800%;font-size:1px">.</span>
 			<span id = "building_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At just over 825 meters, Burj Khalifa, the tallest building in the world, would be completely submerged at this depth. And we're only just getting started.</div>
 				<a href = "#seventh_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "seventh_attraction" style = "position:absolute;top:900%;"></span>
+			<span id = "seventh_attraction" style = "position:absolute;top:900%;font-size:1px">.</span>
 			<span id = "angler_box">
 				<div id = "angler_fish" class = "relative_center"></div>
 				<div id = "angler_fish_two" class = "relative_center"></div>
@@ -70,110 +72,110 @@
 				<a href = "#x8_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x8_attraction" style = "position:absolute;top:1100%;"></span>
+			<span id = "x8_attraction" style = "position:absolute;top:1100%;;font-size:1px">.</span>
 			<span id = "light_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We've reached the 1,100 meter mark. This is the point beyond which visible light cannot penetrate. There is only darkness below...for miles.</div>
 				<a href = "#x9_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x9_attraction" style = "position:absolute;top:1600%;"></span>
+			<span id = "x9_attraction" style = "position:absolute;top:1600%;font-size:1px">.</span>
 			<span id = "mile_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">Well, we're now exactly one mile under the sea. Very few creatures live at this depth due to the harsh conditions. For instance, the water pressure is so great that a human would be instantly crushed into nothingness if exposed. Nice.</div>
 				<a href = "#x10_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x10_attraction" style = "position:absolute;top:2100%;"></span>
+			<span id = "x10_attraction" style = "position:absolute;top:2100%;font-size:1px">.</span>
 			<span id = "empty_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">Still here? We're not even halfway to the bottom yet. It's not too late to back out!</div>
 			<a href = "#x11_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a><a href = "#the_top" class = "smoothScroll"> <div id = "dive_button" style = "margin-left:10px;">Back Out</div> </a>
 			</span>
 			
-			<span id = "x11_attraction" style = "position:absolute;top:2500%;"></span>
+			<span id = "x11_attraction" style = "position:absolute;top:2500%;font-size:1px">.</span>
 			<span id = "sperm_whale_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">This is the maximum diving depth of a Sperm Whale. They spent over 90 percent of their lives at great depths in search of squid and small fish to eat.</div>
 			<a href = "#x12_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div></a>
 			</span>
 			
-			<span id = "x12_attraction" style = "position:absolute;top:3700%;"></span>
+			<span id = "x12_attraction" style = "position:absolute;top:3700%;font-size:1px">.</span>
 			<span id = "titanic_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">The final resting place of the Titanic finds its home here at around 3700 meters under the sea. There have been 197 expeditions to this ghostly historical site.</div>
 				<a href = "#x13_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x13_attraction" style = "position:absolute;top:3800%;"></span>
+			<span id = "x13_attraction" style = "position:absolute;top:3800%;font-size:1px">.</span>
 			<span id = "atlantic_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At just over 2 miles, this is the average depth of the Atlantic Ocean. The pressure here is over 370 times that which is found on the surface.</div>
 				<a href = "#x14_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x14_attraction" style = "position:absolute;top:4500%;"></span>
+			<span id = "x14_attraction" style = "position:absolute;top:4500%;font-size:1px">.</span>
 			<span id = "some_text_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">The ocean is pitch black and silent at this point, with few living creatures. Some small, pale fish are at this depth, but they are few and far between. </div>
 				<a href = "#x15_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x15_attraction" style = "position:absolute;top:5600%;"></span>
+			<span id = "x15_attraction" style = "position:absolute;top:5600%;font-size:1px">.</span>
 			<span id = "elbrus_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At 5,642 meters under the sea, we are now so deep that the entirety of Mount Elbrus, the tallest peak of the Caucasus Mountains in Europe, would be completely submerged.</div>
 				<a href = "#x16_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x16_attraction" style = "position:absolute;top:6500%;"></span>
+			<span id = "x16_attraction" style = "position:absolute;top:6500%;font-size:1px">.</span>
 			<span id = "sumb_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At 6,492 meters, we've reached the depth of Shinkai 6500, a Japanese deep-submergence vehicle. It dives to this depth in order to study seafloor topography and geology and to research deep-sea organisms.</div>
 				<a href = "#x17_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x17_attraction" style = "position:absolute;top:7800%;"></span>
+			<span id = "x17_attraction" style = "position:absolute;top:7800%;font-size:1px">.</span>
 			<span id = "hadal_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We're now nearly 7,800 meters below the surface. This is the home of the Hadal Snailfish, which was until late 2011 the deepest that scientists had ever found fish before. This fish contains a protein that allows its cells to remain functional at the high pressures found in the sea. </div>
 				<a href = "#x18_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x18_attraction" style = "position:absolute;top:8100%;"></span>
+			<span id = "x18_attraction" style = "position:absolute;top:8100%;font-size:1px">.</span>
 			<span id = "fish_deep_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We are at the deepest point of the sea where scientists have found fish. While the species of fish was unidentified, scientists theorize that the deepest similar species could go is to about 8,200 meters. However, there could be unknown organisms that live deeper.</div>
 				<a href = "#x19_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x19_attraction" style = "position:absolute;top:8600%;"></span>
+			<span id = "x19_attraction" style = "position:absolute;top:8600%;font-size:1px">.</span>
 			<span id = "atlantic_max_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We've reached the deepest part of the Atlantic Ocean. While this is incredibly deep, we'll soon see that there do exist many other places that are far deeper.</div>
 				<a href = "#x20_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 		
-			<span id = "x20_attraction" style = "position:absolute;top:8900%;"></span>
+			<span id = "x20_attraction" style = "position:absolute;top:8900%;font-size:1px">.</span>
 			<span id = "everest_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At 8,848 meters, we have a point in the sea that is deep as Mount Everest is tall. This is nearly 5 and a half miles beneath the surface of the ocean.</div>
 				<a href = "#x21_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
 			
-			<span id = "x21_attraction" style = "position:absolute;top:9200%;"></span>
+			<span id = "x21_attraction" style = "position:absolute;top:9200%;font-size:1px">.</span>
 			<span id = "empire_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">Standing at around 373 meters tall, the Empire State Building could be completely submerged at this depth nearly 25 times over.</div>
 				<a href = "#x22_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x22_attraction" style = "position:absolute;top:9400%;"></span>
+			<span id = "x22_attraction" style = "position:absolute;top:9400%;font-size:1px">.</span>
 			<span id = "plane_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At just over 9,400 meters, we've reached a depth equivalent to the average cruising altitude of an airliner. </div>
 				<a href = "#x23_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x23_attraction" style = "position:absolute;top:10700%;"></span>
+			<span id = "x23_attraction" style = "position:absolute;top:10700%;font-size:1px">.</span>
 			<span id = "oil_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We've reached a depth of 10,700 meters. It is around this depth that the world's deepest oil drilling sites, Deepwater Horizon, was active until the 2010 disaster that resulted in it becoming inoperable. </div>
 				<a href = "#x24_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x24_attraction" style = "position:absolute;top:10900%;"></span>
+			<span id = "x24_attraction" style = "position:absolute;top:10900%;font-size:1px">.</span>
 			<span id = "small_life_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We're approaching the lowest known point in the sea. Even at this depth, life is prosperous in the form of soft, single-celled organisms that resemble some of Earth's earliest life forms.</div>
 				<a href = "#x25_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
 			</span>
 			
-			<span id = "x25_attraction" style = "position:absolute;top:11000%;"></span>
+			<span id = "x25_attraction" style = "position:absolute;top:11000%;font-size:1px">.</span>
 			<span id = "deep_box">
 				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">It is at this depth that we find the lowest known point in the sea, otherwise known as Challenger Deep of the Mariana Trench. It is thought that there are other points that are much deeper, as we have only currently explored about 10 percent of the world's oceans.</div>
 				<a href = "#the_top" class = "smoothScroll"> <div id = "dive_button_large">Return to Surface</div> </a>
@@ -293,5 +295,17 @@
 			<div class = "depth_marker" id = "x110">Depth: 10,900 Meters</div>
 			<div class = "depth_marker" id = "x111">Depth: 11,104 Meters</div>
 			<!-- End Depth Markers -->
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+			<script>
+				   $('a').on('click', function(event) {
+					var $anchor = $(this);
+					$('html, body').stop().animate({
+						scrollTop: $($anchor.attr('href')).offset().top
+					}, 1500, 'easeInOutExpo');
+					event.preventDefault();
+				});
+			</script>
 		</body>
 	</html>
