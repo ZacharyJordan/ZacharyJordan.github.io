@@ -1,335 +1,391 @@
 <!DOCTYPE HTML5>
-    <html>
-        <head>
-            <title>Zachary Jordan</title>
-            <link rel= "stylesheet" type= "text/css" href= "style.css" />
-            <link rel= "stylesheet" type= "text/css" href= "normalize.css" />
-            <link rel= "stylesheet" type= "text/css" href= "skeleton.css" />
-            <link rel= "stylesheet" type= "text/css" href= "sweetalert.css">
-            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-            <link rel= "shortcut icon" href= "logo.ico">
-            
-            <script src = "script.js"></script>
-            <script src = "jquery-1.11.1.js"></script>
-            <script src = "smoothscroll.js"></script>
-            <script src= "sweetalert.min.js"></script>
-         
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta name="description" content="Hello, my name is Zachary Jordan. I am currently a Sophomore attending Macalester College. I love to create things, and as such have extensive experience working on a wide range of projects. I try to work with as many disciplines as possible so that I can be familiar with them all.">
-        </head>
-        <body>
-            
-            <div id = "body_content">
-                <div id = "main_header">ZacharyJordan.github.io</div>
-                
-                <div id = "options_menu" class = "no_selection">
-                    <a href = "#first_anchor" class = "smoothScroll color_reset"><div id = "option" class = "smoothScroll">About</div></a>
-                   <a href = "#second_anchor" class = "smoothScroll color_reset second_responsive"><div id = "option" class = "smoothScroll">Projects</div></a>
-                    <span id = "group_two">
-                        
-                       
-                          <a href = "#third_anchor" class = "smoothScroll color_reset first_responsive"><div id = "option" class = "smoothScroll">Other</div></a>
-                        <a href = "#fourth_anchor" class = "smoothScroll color_reset third_responsive"><div id = "option" class = "smoothScroll">Topbox Software</div></a>
+<html>
+
+<head>
+    <title>Zachary Jordan</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="sweetalert.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="shortcut icon" href="logo.ico">
+
+    <script src="script.js"></script>
+    <script src="jquery-1.11.1.js"></script>
+    <script src="smoothscroll.js"></script>
+    <script src="sweetalert.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hello, my name is Zachary Jordan. I am currently a Sophomore attending Macalester College. I love to create things, and as such have extensive experience working on a wide range of projects. I try to work with as many disciplines as possible so that I can be familiar with them all.">
+</head>
+
+<body>
+
+    <div id="body_content">
+        <div id="main_header">ZacharyJordan.github.io</div>
+
+        <div id="options_menu" class="no_selection">
+            <a href="#first_anchor" class="smoothScroll color_reset">
+                <div id="option" class="smoothScroll">About</div>
+            </a>
+            <a href="#second_anchor" class="smoothScroll color_reset second_responsive">
+                <div id="option" class="smoothScroll">Projects</div>
+            </a>
+            <span id="group_two">
+
+
+                <a href="#third_anchor" class="smoothScroll color_reset first_responsive">
+                    <div id="option" class="smoothScroll">Other</div>
+                </a>
+                <a href="#fourth_anchor" class="smoothScroll color_reset third_responsive">
+                    <div id="option" class="smoothScroll">Topbox Software</div>
+                </a>
+            </span>
+        </div>
+
+
+        <div id="section_box">
+            <!-- First anchor point -->
+            <div id="first_anchor"></div>
+
+            <div id="section_header">About</div>
+            <div id="section_content">Hello, my name is <span class="tooltip">Zachary Jordan <span class="tooltiptext">赵善言</span></span>.
+                I am currently a Sophomore attending <a href="https://www.macalester.edu/" target="_blank" class="link">Macalester
+                    College</a>. I love to create things, and as such have extensive experience working on a wide range
+                of projects. I try to work with as many disciplines as possible so that I can be familiar with them
+                all.
+
+
+                <br />
+                <br />
+                It's very easy to get in touch with me. Just shoot me an email at <a href="mailto:zachjordan0198@gmail.com?Subject=Hello!"
+                    target="_top" class="link">Zachjordan0198@gmail.com</a> and we'll get a conversation going in no
+                time. You can also view my r&eacute;sum&eacute; <a class="link" href="Zach's%20Resume.pdf" target="_blank">here</a>.
+            </div>
+
+
+            <hr class="horizontal_break" />
+        </div>
+
+        <div id="section_box" style="position:relative;top:65px;">
+            <!-- Second anchor point -->
+            <div id="second_anchor"></div>
+
+            <div id="section_header">Projects</div>
+            <div id="section_content">
+                I am familiar with a variety of cutting-edge programming languages and development technologies. These
+                include: Java, HTML, CSS, Javascript, C#, Objective C, PHP, Unity 5, Cocos2D, Phaser, XNA, Bootstrap
+                and Skeleton Boilerplate.
+                <br />
+                <br />
+
+                I do my very best to design projects that make people's lives more enjoyable and simple. While this
+                list is by no means exhaustive, it does represent the bulk of my formally published pursuits.
+                <br />
+                <span id="sub_project_header">Personal Projects</span>
+
+                <div id="app_box">
+
+                    <a id="app_title" class="link" onClick="offline()">Don't Touch Anything</a>
+                    <span id="app_date">July 2014 - July 2015</span>
+                    <br />
+                    <img src="touch.png" id="project_picture" />
+                    <span id="app_description">A game about dodging obstacles and collecting coins. It's simple, fast,
+                        and fun.</span>
+
+                </div>
+
+                <div id="app_box">
+                    <a onClick="offline()" target="_blank" id="app_title" class="link">Student Companion</a>
+                    <span id="app_date">August 2014 - August 2017</span>
+                    <br />
+                    <img src="logoStudent.png" id="project_picture" />
+                    <span id="app_description">An interactive toolset that provides students access to a wide set of
+                        educational resources.</span>
+
+                </div>
+
+                <div id="app_box">
+                    <a onClick="offline()" target="_blank" id="app_title" class="link">Lunarcy - A Moon Exploration</a>
+                    <span id="app_date">November 2014 - August 2017</span>
+                    <br />
+                    <img src="moonIcon.png" id="project_picture" />
+                    <span id="app_description">A guided tour of our closest natural satellite.</span>
+
+                </div>
+
+                <div id="app_box">
+                    <a href="Sea/thesea.html" target="_blank" id="app_title" class="link">The Sea</a>
+                    <span id="app_date">March 2015 - Present</span>
+                    <br />
+                    <img src="wave.png" id="project_picture" />
+                    <span id="app_description">An interactive exploration of the ocean's greatest depths.</span>
+
+                </div>
+
+                <div id="app_box">
+                    <a onClick="offline()" target="_blank" id="app_title" class="link">Easy Sleep - A Smarter Way to
+                        Sleep</a>
+                    <span id="app_date">July 2015 - Present</span>
+                    <br />
+                    <img src="easysleep.png" id="project_picture_norad" />
+                    <span id="app_description">Doing away with groggy mornings.</span>
+
+                </div>
+
+                <div id="app_box">
+                    <a onClick="offline()" target="_blank" id="app_title" class="link">Slow Cook</a>
+                    <span id="app_date">July 2015 - Present</span>
+                    <br />
+                    <img src="slowcook.png" id="project_picture" />
+                    <span id="app_description">Making better tasting meals possible for everyone.</span>
+
+                </div>
+
+                <div id="app_box">
+                    <a onClick="offline()" id="app_title" class="link">The Cure It Project [Desktop]</a>
+
+
+                    <span id="app_date">October 2015 - November 2018</span>
+                    <br />
+                    <img src="cureit.png" id="project_picture" />
+                    <span id="app_description">A reimagining of cancer education.</span>
+                </div>
+
+                <div id="app_box">
+                    <a href="https://easyemdr.com" target="_blank" id="app_title" class="link">Easy EMDR</a>
+
+
+                    <span id="app_date">July 2016 - Present</span>
+                    <br />
+                    <img src="eye.jpg" id="project_picture" />
+                    <span id="app_description">A simple, no-frills tool to help those suffering from PTSD, anxiety,
+                        depression, and more. 350,000+ hits and counting!
                     </span>
                 </div>
-                
-                
-                <div id = "section_box">
-                    <!-- First anchor point --> 
-                    <div id = "first_anchor"></div>
-                    
-                    <div id = "section_header">About</div>
-                    <div id = "section_content">Hello, my name is <span class = "tooltip">Zachary Jordan <span class = "tooltiptext">赵善言</span></span>. I am currently a Sophomore attending <a href = "https://www.macalester.edu/" target = "_blank" class = "link">Macalester College</a>. I love to create things, and as such have extensive experience working on a wide range of projects. I try to work with as many disciplines as possible so that I can be familiar with them all. 
-                        
-                        
+
+                <div id="app_box">
+                    <a href="https://osumpc.github.io/" target="_blank" id="app_title" class="link">OSU MPC</a>
+
+
+                    <span id="app_date">January 2017 - Present</span>
                     <br />
+                    <img src="microphone.png" id="project_picture" />
+                    <span id="app_description">Providing supporting development for the official Ohio State Music
+                        Producers Club website.
+                    </span>
+                </div>
+
+                <div id="app_box">
+                    <a href="https://brockwaystreet.com/" target="_blank" id="app_title" class="link">Brockway Street</a>
+
+
+                    <span id="app_date">July 2017 - Present</span>
                     <br />
-                        It's very easy to get in touch with me. Just shoot me an email at <a href="mailto:zachjordan0198@gmail.com?Subject=Hello!" target="_top" class = "link">Zachjordan0198@gmail.com</a> and we'll get a conversation going in no time. You can also view my r&eacute;sum&eacute; <a class = "link" href = "Zach's%20Resume.pdf" target="_blank">here</a>.
-                    </div>
-                    
-                   
-                 <hr class = "horizontal_break" />        
+                    <img src="brockway.png" id="project_picture" />
+                    <span id="app_description">Re-inventing streetwear with affordable goods.
+                    </span>
                 </div>
-                
-                 <div id = "section_box" style = "position:relative;top:65px;">
-                    <!-- Second anchor point --> 
-                    <div id = "second_anchor"></div>
-                     
-                       <div id = "section_header">Projects</div>
-                    <div id = "section_content">
-                        I am familiar with a variety of cutting-edge programming languages and development technologies. These include: Java, HTML, CSS, Javascript, C#, Objective C, PHP, Unity 5, Cocos2D, Phaser, XNA, Bootstrap and Skeleton Boilerplate.
-                        <br />
-                        <br />
-                        
-                        I do my very best to design projects that make people's lives more enjoyable and simple. While this list is by no means exhaustive, it does represent the bulk of my formally published pursuits.
-                        <br />
-                        <span id = "sub_project_header">Personal Projects</span>
 
-                         <div id = "app_box">
-                             
-                             <a id = "app_title" class = "link" onClick = "offline()">Don't Touch Anything</a>
-                             <span id = "app_date">July 2014 - July 2015 [Offline]</span>
-                             <br />
-                             <img src = "touch.png" id = "project_picture"/>
-                             <span id = "app_description">A game about dodging obstacles and collecting coins. It's simple, fast, and fun.</span>
-                            
-                         </div>
-                        
-                         <div id = "app_box">
-                             <a href = "https://play.google.com/store/apps/details?id=com.apexsoftware.studentcompanion" target = "_blank" id = "app_title" class = "link">Student Companion</a>
-                             <span id = "app_date">August 2014 - Present</span>
-                             <br />
-                             <img src = "logoStudent.png" id = "project_picture"/>
-                             <span id = "app_description">An interactive toolset that provides students access to a wide set of educational resources.</span>
-                            
-                         </div>
-                        
-                         <div id = "app_box">
-                             <a href = "https://play.google.com/store/apps/details?id=com.apexsoftware.Lunarcy" target = "_blank" id = "app_title" class = "link">Lunarcy - A Moon Exploration</a>
-                             <span id = "app_date">November 2014 - Present</span>
-                             <br />
-                             <img src = "moonIcon.png" id = "project_picture"/>
-                             <span id = "app_description">A guided tour of our closest natural satellite.</span>
-                            
-                         </div>
-                        
-                         <div id = "app_box">
-                             <a href = "Sea/thesea.html" target = "_blank" id = "app_title" class = "link">The Sea</a>
-                             <span id = "app_date">March 2015 - Present</span>
-                             <br />
-                             <img src = "wave.png" id = "project_picture"/>
-                             <span id = "app_description">An interactive exploration of the ocean's greatest depths.</span>
-                            
-                         </div>
-                        
-                          <div id = "app_box">
-                             <a href = "https://play.google.com/store/apps/details?id=com.topboxSoftware.sleepeasy" target = "_blank" id = "app_title" class = "link">Easy Sleep - A Smarter Way to Sleep</a>
-                             <span id = "app_date">July 2015 - Present</span>
-                             <br />
-                             <img src = "easysleep.png" id = "project_picture_norad"/>
-                             <span id = "app_description">Doing away with groggy mornings.</span>
-                            
-                         </div>
-                         
-                        <div id = "app_box">
-                             <a href = "https://play.google.com/store/apps/details?id=com.topboxSoftware.slowCook" target = "_blank" id = "app_title" class = "link">Slow Cook</a>
-                             <span id = "app_date">July 2015 - Present</span>
-                             <br />
-                             <img src = "slowcook.png" id = "project_picture"/>
-                             <span id = "app_description">Making better tasting meals possible for everyone.</span>
-                            
-                         </div>
-                        
-                         <div id = "app_box">
-                             <a onClick = "offline()" id = "app_title" class = "link">The Cure It Project [Desktop]</a>
-                            
-                             
-                             <span id = "app_date">October 2015 - November 2018</span>
-                            <br /> 
-                             <img src = "cureit.png" id = "project_picture"/>
-                             <span id = "app_description">A reimagining of cancer education.</span>
-                         </div>
+                <div id="app_box">
+                    <a href="http://fossilfreemac.com/" target="_blank" id="app_title" class="link">Fossil Free Mac</a>
 
-                         <div id = "app_box">
-                             <a href = "http://easyemdr.com" target = "_blank" id = "app_title" class = "link">Easy EMDR</a>
-                            
-                             
-                             <span id = "app_date">July 2016 - Present</span>
-                            <br /> 
-                             <img src = "eye.jpg" id = "project_picture"/>
-                             <span id = "app_description">A simple, no-frills tool to help those suffering from PTSD, anxiety, depression, and more. 315,000+ hits and counting!
-                             </span>
-                         </div>
 
-                         <div id = "app_box">
-                             <a href = "https://osumpc.github.io/" target = "_blank" id = "app_title" class = "link">OSU MPC</a>
-                            
-                             
-                             <span id = "app_date">January 2017 - Present</span>
-                            <br /> 
-                             <img src = "microphone.png" id = "project_picture"/>
-                             <span id = "app_description">Providing supporting development for the official Ohio State Music Producers Club website. 
-                             </span>
-                         </div>
-
-                         <div id = "app_box">
-                             <a href = "http://brockwaystreet.com/" target = "_blank" id = "app_title" class = "link">Brockway Street</a>
-                            
-                             
-                             <span id = "app_date">July 2017 - Present</span>
-                            <br /> 
-                             <img src = "brockway.png" id = "project_picture"/>
-                             <span id = "app_description">Re-inventing streetwear with affordable goods.
-                             </span>
-                         </div>
-
-                         <div id = "app_box">
-                            <a href = "http://fossilfreemac.com/" target = "_blank" id = "app_title" class = "link">Fossil Free Mac</a>
-                           
-                            
-                            <span id = "app_date">March 2018 - Present</span>
-                           <br /> 
-                            <img src = "ffm.svg" id = "project_picture"/>
-                            <span id = "app_description">The official website for the campus-wide movement for divestment from fossil fuels.
-                            </span>
-                        </div>
-                        
-                        
-                         <div id = "app_box">
-                             <a id = "app_title" class = "link" onClick = "comingSoon()">The Cure It Project [Mobile]</a>
-                             <span id = "app_date"> Coming Soon</span>
-                             <br />
-                             <img src = "cureit.png" id = "project_picture"/>
-                             <span id = "app_description">A mobile hub for the fight against cancer.</span>
-                            
-                         </div>
-                        
-                        <span id = "sub_project_header">Contract Work</span>
-                        <div id = "app_box">
-                             <a href = "http://www.schaumburgflyingclub.org" target = "_blank" id = "app_title" class = "link">Schaumburg Flying Club</a>
-                             <span id = "app_date">March 2016 - Present</span>
-                             <br />
-                             <img src = "plane.png" id = "project_picture"/>
-                             <span id = "app_description">Official webpage for Schaumburg's aviation enthusiasts.</span>
-                         </div>
-                         
-                        <div id = "app_box">
-                             <a id = "app_title" class = "link" onClick = "offline()">TonyTosh.Net</a>
-                             <span id = "app_date">June 2016 - September 2016</span>
-                             <br />
-                             <img src = "gym.png" id = "project_picture"/>
-                             <span id = "app_description">Creating a website for a crossfit and life training startup.</span>
-                         </div> 
-
-                         <div id = "app_box">
-                             <a href = "https://www.gotitsoftware.com/#/home" target = "_blank" id = "app_title" class = "link" onClick = "gotIt()">Got/It Software</a>
-                             <span id = "app_date">September 2016 - Present</span>
-                             <br />
-                             <img src = "laptop.png" id = "project_picture"/>
-                             <span id = "app_description">Creating a responsive experience for a local tech startup.</span>
-                         </div>  
-
-                </div>
-                     <br />
-                     
-                        <hr class = "horizontal_break" style = "position:relative;top:-28px;"/>
-                </div>
-                     
-                     
-                 <div id = "section_box" style = "position:relative; top:40px;">
-                    <!-- Second anchor point --> 
-                    <div id = "third_anchor"></div>
-                     
-                     <div id = "section_header">Other</div>
-                    <div id = "section_content">
-                        
-                      I've been lucky enough to attend excellent schools that provide great instruction to help me improve my work. I am currently majoring in Philosophy at Macalester College with a minor in Computer Science.
-                       <br />
-                        <span id = "sub_project_header">Internships</span>
-                         <div id = "app_box">
-                             <a href = "https://www.advancedtech.com" target = "_blank" id = "app_title" class = "link">Advanced Technology Services</a>
-                             <span id = "app_date">June 2016 - August 2016</span>
-                             <br />
-                             <img src = "phone.png" id = "project_picture"/>
-                             <span id = "app_description">Working with Angular 2, Bootstrap 3, and ASP.NET to construct websites.</span>
-                        </div>
-                        
-                        <span id = "sub_project_header">Education</span>
-                        <div id = "app_box">
-                             <a href = "http://fhs.d211.org/" target = "_blank" id = "app_title" class = "link">William Fremd High School</a>
-                             <span id = "app_date">August 2012 - June 2016</span>
-                             <br />
-                             <img src = "fremd.png" id = "project_picture"/>
-                             <span id = "app_description">A high school located in Palatine, Illinois.</span>
-                        </div>
-                        
-                        <div id = "app_box">
-                             <a href = "http://www.macalester.edu" target = "_blank" id = "app_title" class = "link">Macalester College</a>
-                             <span id = "app_date">August 2016 - Present</span>
-                             <br />
-                             <img src = "mac.png" id = "project_picture"/>
-                             <span id = "app_description">A top 25 LAC located in Saint Paul, Minnesota. Philosophy Major, Computer Science minor.</span>
-                        </div>
-
-                        <span id = "sub_project_header">Educational Projects</span>
-                         <div id = "app_box">
-                             <a href = "https://www.youtube.com/channel/UCGEWlEUCsPWaIkMNwpNROzQ/videos?view_as=subscriber" target = "_blank" id = "app_title" class = "link">Let's Have A Conversation</a>
-                             <span id = "app_date">May 2018 - Present</span>
-                             <br />
-                             <img src = "conversation.png" id = "project_picture"/>
-                             <span id = "app_description">Creating research oriented videos that cover underdiscussed topics.</span>
-                         </div> 
-                        
-                         <span id = "sub_project_header">Writing</span>
-                         <div id = "app_box">
-                             <a href = "https://www.elephantjournal.com/now/how-climate-change-hurts-the-most-marginalized-among-us/" target = "_blank" id = "app_title" class = "link">How Climate Change Hurts The Most Marginalized Among Us</a>
-                             <span id = "app_date">July 2018 - Present</span>
-                             <br />
-                             <img src = "elephant.jpg" id = "project_picture"/>
-                             <span id = "app_description">An article about climate change and its impact on already disadvantaged communities.</span>
-                         </div> 
-
-                         <div id = "app_box">
-                                <a href = "https://www.elephantjournal.com/now/the-importance-of-universal-empathy/" target = "_blank">The Importance of Universal Empathy</a>
-                                <span id = "app_date">July 2018 - Present</span>
-                                <br />
-                                <img src = "elephant.jpg" id = "project_picture"/>
-                                <span id = "app_description">An article about the psychology behind disregarding others and the importance of recognizing this.</span>
-                            </div> 
-
-                        <span id = "sub_project_header">Awards</span>
-                         <div id = "app_box">
-                             <a href = "https://codeday.org/chicago" target = "_blank" id = "app_title" class = "link">CodeDay Chicago 2016 - Best Game Award</a>
-                             <span id = "app_date">Summer 2016</span>
-                             <br />
-                             <img src = "game-controller.png" id = "project_picture"/>
-                             <span id = "app_description">Earning a first place award at my first attendance of CodeDay</span>
-                         </div> 
-
-                         <span id = "sub_project_header">Shoutouts</span>
-                         <div id = "app_box">
-                             <a href = "https://open.spotify.com/album/7xFsxKdu03FUVZUj3xtsuy" target = "_blank" id = "app_title" class = "link">Remake by Jin</a>
-                             <span id = "app_date">Spring 2018</span>
-                             <br />
-                             <img src = "remake.jpg" id = "project_picture"/>
-                             <span id = "app_description">A fantastic album made by my friend Eugene Kim (Jin).</span>
-                         </div> 
-                    </div>
-                     <br />
-                     
-                        <hr class = "horizontal_break" style = "position:relative;top:-28px;"/>
-                </div>
-                
-                <br />
-                
-                <div id = "section_box" style = "position:relative;top:-20px;">
-                    <!-- Fourth anchor point --> 
-                    <div id = "fourth_anchor"></div>
-                     
-                    <div id = "section_header">Topbox Software</div>
-                    <div id = "section_content">
-                        
-                        I co-founded Topbox Software when I was 16 years old with my friend, <a href = "http://itaparia.github.io" target = "_blank" class = "link">Ishan Taparia</a>. Ishan and I began developing applications in the summer of 2014, and achieved legal entity status in the fall of 2015. We regularly produce apps, websites, games, and everything in between...most of it for free. You can click the buttons below to check us out.  
-                        
-                        <div id = "center_buttons">
-                            <div id = "store_button" class = "app_store_color no_selection slight_margin" onClick = " swal({   title: 'Coming Soon!',   text: 'This button will be functional soon!',   allowOutsideClick: true,  type: 'error',   confirmButtonText:'Alright' });">App Store</div>
-                            <div id = "store_button" class = "play_store_color no_selection" onClick = "window.open('https://play.google.com/store/apps/developer?id=TopBox%20Software&hl=en')">Google Play Store</div>
-                        </div>
-                        <hr class = "horizontal_break" style = "position:relative;top:0px;"/>
-                </div>
-                    <div class = "img-wrapper">
-                        <a href = "https://github.com/ZacharyJordan" target="_blank"><img class = "icon"src = "github-box.png" /></a>
-                        <a href="mailto:zachjordan0198@gmail.com?Subject=Hello!" target="_top"><img class = "icon"src = "email.png" /></a>
-                    </div>
-            <br />
-                    <div id = "footer_element">&#169 
-                        Copyright 2018 Zachary Jordan. 
-                        <span class = "center_when_small">All Rights Reserved.</span>
-                    </div>
-                    
+                    <span id="app_date">March 2018 - Present</span>
                     <br />
-                
-                
+                    <img src="ffm.svg" id="project_picture" />
+                    <span id="app_description">The official website for the campus-wide movement for divestment from
+                        fossil fuels.
+                    </span>
+                </div>
+
+                <div id="app_box">
+                    <a id="app_title" class="link" onClick="contextualizeMe()">Contextualize Me</a>
+                    <span id="app_date">September 2018 - Present</span>
+                    <br />
+                    <img src="icon.png" id="project_picture" />
+                    <span id="app_description">Placing global issues in context, increasing accessibility of top-rated
+                        volunteer and donation opportunities.</span>
+
+                </div>
+
+
+                <div id="app_box">
+                    <a id="app_title" class="link" onClick="comingSoon()">The Cure It Project [Mobile]</a>
+                    <span id="app_date"> Coming Soon</span>
+                    <br />
+                    <img src="cureit.png" id="project_picture" />
+                    <span id="app_description">A mobile hub for the fight against cancer.</span>
+
+                </div>
+
+                <span id="sub_project_header">Contract Work</span>
+                <div id="app_box">
+                    <a href="https://www.schaumburgflyingclub.org" target="_blank" id="app_title" class="link">Schaumburg
+                        Flying Club</a>
+                    <span id="app_date">March 2016 - Present</span>
+                    <br />
+                    <img src="plane.png" id="project_picture" />
+                    <span id="app_description">Official webpage for Schaumburg's aviation enthusiasts.</span>
+                </div>
+
+                <div id="app_box">
+                    <a id="app_title" class="link" onClick="offline()">TonyTosh.Net</a>
+                    <span id="app_date">June 2016 - September 2016</span>
+                    <br />
+                    <img src="gym.png" id="project_picture" />
+                    <span id="app_description">Creating a website for a crossfit and life training startup.</span>
+                </div>
+
+                <div id="app_box">
+                    <a href="https://www.gotitsoftware.com/#/home" target="_blank" id="app_title" class="link" onClick="gotIt()">Got/It
+                        Software</a>
+                    <span id="app_date">September 2016 - Present</span>
+                    <br />
+                    <img src="laptop.png" id="project_picture" />
+                    <span id="app_description">Creating a responsive experience for a local tech startup.</span>
+                </div>
+
             </div>
-        </body>
-    </html>
+            <br />
+
+            <hr class="horizontal_break" style="position:relative;top:-28px;" />
+        </div>
+
+
+        <div id="section_box" style="position:relative; top:40px;">
+            <!-- Second anchor point -->
+            <div id="third_anchor"></div>
+
+            <div id="section_header">Other</div>
+            <div id="section_content">
+
+                I've been lucky enough to attend excellent schools that provide great instruction to help me improve my
+                work. I am currently majoring in Philosophy at Macalester College with a minor in Computer Science.
+                <br />
+                <span id="sub_project_header">Internships</span>
+                <div id="app_box">
+                    <a href="https://www.advancedtech.com" target="_blank" id="app_title" class="link">Advanced
+                        Technology Services</a>
+                    <span id="app_date">June 2016 - August 2016</span>
+                    <br />
+                    <img src="phone.png" id="project_picture" />
+                    <span id="app_description">Working with Angular 2, Bootstrap 3, and ASP.NET to construct websites.</span>
+                </div>
+
+                <span id="sub_project_header">Education</span>
+                <div id="app_box">
+                    <a href="http://fhs.d211.org/" target="_blank" id="app_title" class="link">William Fremd High
+                        School</a>
+                    <span id="app_date">August 2012 - June 2016</span>
+                    <br />
+                    <img src="fremd.png" id="project_picture" />
+                    <span id="app_description">A high school located in Palatine, Illinois.</span>
+                </div>
+
+                <div id="app_box">
+                    <a href="http://www.macalester.edu" target="_blank" id="app_title" class="link">Macalester College</a>
+                    <span id="app_date">August 2016 - Present</span>
+                    <br />
+                    <img src="mac.png" id="project_picture" />
+                    <span id="app_description">A top 25 LAC located in Saint Paul, Minnesota. Philosophy Major,
+                        Computer Science minor.</span>
+                </div>
+
+                <span id="sub_project_header">Educational Projects</span>
+                <div id="app_box">
+                    <a href="https://www.youtube.com/channel/UCGEWlEUCsPWaIkMNwpNROzQ/videos?view_as=subscriber" target="_blank"
+                        id="app_title" class="link">Let's Have A Conversation</a>
+                    <span id="app_date">May 2018 - Present</span>
+                    <br />
+                    <img src="conversation.png" id="project_picture" />
+                    <span id="app_description">Creating research oriented videos that cover underdiscussed topics.</span>
+                </div>
+
+                <span id="sub_project_header">Writing</span>
+                <div id="app_box">
+                    <a href="https://www.elephantjournal.com/now/how-climate-change-hurts-the-most-marginalized-among-us/"
+                        target="_blank" id="app_title" class="link">How Climate Change Hurts The Most Marginalized
+                        Among Us</a>
+                    <span id="app_date">July 2018 - Present</span>
+                    <br />
+                    <img src="elephant.jpg" id="project_picture" />
+                    <span id="app_description">An article about climate change and its impact on already disadvantaged
+                        communities.</span>
+                </div>
+
+                <div id="app_box">
+                    <a href="https://www.elephantjournal.com/now/the-importance-of-universal-empathy/" target="_blank">The
+                        Importance of Universal Empathy</a>
+                    <span id="app_date">July 2018 - Present</span>
+                    <br />
+                    <img src="elephant.jpg" id="project_picture" />
+                    <span id="app_description">An article about the psychology behind disregarding others and the
+                        importance of recognizing this.</span>
+                </div>
+
+                <span id="sub_project_header">Awards</span>
+                <div id="app_box">
+                    <a href="https://codeday.org/chicago" target="_blank" id="app_title" class="link">CodeDay Chicago
+                        2016 - Best Game Award</a>
+                    <span id="app_date">Summer 2016</span>
+                    <br />
+                    <img src="game-controller.png" id="project_picture" />
+                    <span id="app_description">Earning a first place award at my first attendance of CodeDay</span>
+                </div>
+
+                <span id="sub_project_header">Shoutouts</span>
+                <div id="app_box">
+                    <a href="https://open.spotify.com/album/7xFsxKdu03FUVZUj3xtsuy" target="_blank" id="app_title"
+                        class="link">Remake by Jin</a>
+                    <span id="app_date">Spring 2018</span>
+                    <br />
+                    <img src="remake.jpg" id="project_picture" />
+                    <span id="app_description">A fantastic album made by my friend Eugene Kim (Jin).</span>
+                </div>
+            </div>
+            <br />
+
+            <hr class="horizontal_break" style="position:relative;top:-28px;" />
+        </div>
+
+        <br />
+
+        <div id="section_box" style="position:relative;top:-20px;">
+            <!-- Fourth anchor point -->
+            <div id="fourth_anchor"></div>
+
+            <div id="section_header">Topbox Software</div>
+            <div id="section_content">
+
+                I co-founded Topbox Software when I was 16 years old with my friend, <a href="http://itaparia.github.io"
+                    target="_blank" class="link">Ishan Taparia</a>. Ishan and I began developing applications in the
+                summer of 2014, and achieved legal entity status in the fall of 2015. We regularly produce apps,
+                websites, games, and everything in between...most of it for free. You can click the buttons below to
+                check us out.
+
+                <div id="center_buttons">
+                    <div id="store_button" class="app_store_color no_selection slight_margin" onClick=" swal({   title: 'Coming Soon!',   text: 'This button will be functional soon!',   allowOutsideClick: true,  type: 'error',   confirmButtonText:'Alright' });">App
+                        Store</div>
+                    <div id="store_button" class="play_store_color no_selection" onClick="window.open('https://play.google.com/store/apps/developer?id=TopBox%20Software&hl=en')">Google
+                        Play Store</div>
+                </div>
+                <hr class="horizontal_break" style="position:relative;top:0px;" />
+            </div>
+            <div class="img-wrapper">
+                <a href="https://github.com/ZacharyJordan" target="_blank"><img class="icon" src="github-box.png" /></a>
+                <a href="mailto:zachjordan0198@gmail.com?Subject=Hello!" target="_top"><img class="icon" src="email.png" /></a>
+            </div>
+            <br />
+            <div id="footer_element">&#169
+                Copyright 2018 Zachary Jordan.
+                <span class="center_when_small">All Rights Reserved.</span>
+            </div>
+
+            <br />
+
+
+        </div>
+</body>
+
+</html>

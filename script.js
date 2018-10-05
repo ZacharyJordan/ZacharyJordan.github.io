@@ -1,103 +1,120 @@
-function open_fremd_page()
-{
-    window.open("http://fhs.d211.org/");
+function open_fremd_page() {
+	window.open("http://fhs.d211.org/");
 }
 
-function open_macalester_page()
-{
-    window.open("http://www.macalester.edu");
+function open_macalester_page() {
+	window.open("http://www.macalester.edu");
 }
 
-function open_ats_page()
-{
-    window.open("https://www.advancedtech.com");
+function open_ats_page() {
+	window.open("https://www.advancedtech.com");
 }
 
 //Android and iOS are flipped
 
 
-function moon()
-{
-	
-		swal({   
-		title: "Which One?",  
+function moon() {
+
+	swal({
+		title: "Which One?",
 		text: "Would you like to be directed to the iOS or Android version?",
- 		imageUrl: "question.png", 		
-		 showCancelButton: true,   
-		 allowOutsideClick: true, 
-		confirmButtonColor: "#4CAF50",   
-		confirmButtonText: "Android",    
-		cancelButtonText: "iOS",   
-		closeOnConfirm: true,   
-		closeOnCancel: true }, 
-		function(isConfirm){   
-		if (isConfirm) {     
-		openMoonIOS();
-		} else {    
-		openMoonAndroid();  } });
+		imageUrl: "question.png",
+		showCancelButton: true,
+		allowOutsideClick: true,
+		confirmButtonColor: "#4CAF50",
+		confirmButtonText: "Android",
+		cancelButtonText: "iOS",
+		closeOnConfirm: true,
+		closeOnCancel: true
+	},
+		function (isConfirm) {
+			if (isConfirm) {
+				openMoonIOS();
+			} else {
+				openMoonAndroid();
+			}
+		});
 }
 
-function offline()
-{
-    swal({   title: "Sorry!",   text: "This project is currently offline! Don't worry, it may come back someday.",   allowOutsideClick: true,  type: "error",   confirmButtonText: "Alright" });
+function contextualizeMe() {
+
+	swal({
+		title: "Which One?",
+		text: "Would you like to be directed to the iOS or Android version?",
+		imageUrl: "question.png",
+		showCancelButton: true,
+		allowOutsideClick: true,
+		confirmButtonColor: "#4CAF50",
+		confirmButtonText: "Android",
+		cancelButtonText: "iOS",
+		closeOnConfirm: true,
+		closeOnCancel: true
+	},
+		function (isConfirm) {
+			if (isConfirm) {
+				openContextualizeAndroid();
+			} else {
+				openContextualizeIOS();
+			}
+		});
 }
 
-function openStudentAndroid()
-{
-	swal({   title: "Sorry!",   text: "This app is currently offline! Don't worry, it may come back someday.",   allowOutsideClick: true,  type: "error",   confirmButtonText: "Alright" });
+function openContextualizeIOS() {
+	window.open("https://itunes.apple.com/us/app/contextualize-me/id1436968759?mt=8");
 }
 
-function openStudentIOS()
-{
+function openContextualizeAndroid() {
+	window.open("https://play.google.com/store/apps/details?id=io.ionic.contextualize");
+}
+
+function offline() {
+	swal({ title: "Sorry!", text: "This project is currently offline! Don't worry, it may come back someday.", allowOutsideClick: true, type: "error", confirmButtonText: "Alright" });
+}
+
+function openStudentAndroid() {
+	swal({ title: "Sorry!", text: "This app is currently offline! Don't worry, it may come back someday.", allowOutsideClick: true, type: "error", confirmButtonText: "Alright" });
+}
+
+function openStudentIOS() {
 	window.open("https://play.google.com/store/apps/details?id=com.apexsoftware.studentcompanion");
 }
 
-function openMoonIOS()
-{
+function openMoonIOS() {
 	window.open("https://play.google.com/store/apps/details?id=com.apexsoftware.Lunarcy");
 }
 
-function openMoonAndroid()
-{
+function openMoonAndroid() {
 	window.location = "https://itunes.apple.com/us/app/lunarcy-a-moon-exploration/id931234602?ls=1&mt=8";
 }
 
-function openEasySleepAndroid()
-{
-    window.open("https://play.google.com/store/apps/details?id=com.topboxSoftware.sleepeasy");
+function openEasySleepAndroid() {
+	window.open("https://play.google.com/store/apps/details?id=com.topboxSoftware.sleepeasy");
 }
 
-function openSlowCookAndroid()
-{
-    window.open("https://play.google.com/store/apps/details?id=com.topboxSoftware.slowCook");
+function openSlowCookAndroid() {
+	window.open("https://play.google.com/store/apps/details?id=com.topboxSoftware.slowCook");
 }
 
-function cureItDesktop()
-{
-    window.open("http://www.thecureitproject.com");
+function cureItDesktop() {
+	window.open("http://www.thecureitproject.com");
 }
 
-function schaumburgFlying()
-{
-    window.open("http://www.schaumburgflyingclub.org");
+function schaumburgFlying() {
+	window.open("http://www.schaumburgflyingclub.org");
 }
 
-function easyEMDR()
-{
+function easyEMDR() {
 	window.open("http://easyemdr.com");
 }
 
-function gotIt()
-{
+function gotIt() {
 	window.open("https://www.gotitsoftware.com/#/home");
 }
 
-function osu()
-{
+function osu() {
 	window.open("https://osumpc.github.io/");
 }
 
-function comingSoon()
-{
-    swal({   title: "Coming Soon!",   text: "This project is coming soon!",   allowOutsideClick: true,  type: "error",   confirmButtonText: "Alright" });
+function comingSoon() {
+	swal({ title: "Coming Soon!", text: "This project is coming soon!", allowOutsideClick: true, type: "error", confirmButtonText: "Alright" });
 }
