@@ -1,391 +1,557 @@
-<!DOCTYPE HTML5>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Zachary Jordan</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="normalize.css" />
-    <link rel="stylesheet" type="text/css" href="skeleton.css" />
-    <link rel="stylesheet" type="text/css" href="sweetalert.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="shortcut icon" href="logo.ico">
 
-    <script src="script.js"></script>
-    <script src="jquery-1.11.1.js"></script>
-    <script src="smoothscroll.js"></script>
-    <script src="sweetalert.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hello, my name is Zachary Jordan. I am currently a Sophomore attending Macalester College. I love to create things, and as such have extensive experience working on a wide range of projects. I try to work with as many disciplines as possible so that I can be familiar with them all.">
+  <title>Zachary Jordan</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style/animate.css" rel="stylesheet">
+  <link href="style/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logo.ico">
+  <meta name="description" content="Hello, my name is Zachary Jordan. I am currently a Junior attending Macalester College. I love to create things, and as such have extensive experience working on a wide range of projects. On this site,
+  I share my programming projects, art, writing, and anything else I've been working on. I'm always working on something
+  new! I try to work with as many disciplines as possible so that I can be familiar with them all.">
+
 </head>
 
 <body>
+  <div class="col-md-12 text-center">
+    <h1 class="mt-5" class="animated" style="font-weight:bold;">Zachary Jordan</h1>
 
-    <div id="body_content">
-        <div id="main_header">ZacharyJordan.github.io</div>
+    <!-- Desktop header -->
+    <span class="col-centered d-md-block d-none ">
+      <div class="cl-effect-13 margin-top text-center">
+        <span class="col-md-3 pad-links text-center">
+          <a id="first-nav" class="link-style anchorLink" href="#programming">Programming</a>
+        </span>
+        <span class="col-md-3 pad-links text-center">
+          <a id="second-nav" class="link-style anchorLink" href="#media">Media</a>
+        </span>
+        <span class="col-md-3 pad-links text-center">
+          <a id="third-nav" class="link-style anchorLink" href="#experience">Experience</a>
+        </span>
+        <span class="col-md-3 pad-links text-center">
+          <a id="fourth-nav" class="link-style anchorLink" href="#contact">Contact</a>
+        </span>
+      </div>
+    </span>
 
-        <div id="options_menu" class="no_selection">
-            <a href="#first_anchor" class="smoothScroll color_reset">
-                <div id="option" class="smoothScroll">About</div>
+    <!-- Mobile header -->
+    <span class="col-centered d-sm-none">
+      <a class="anchorLink kill-link-style" href="#programming">
+        <div class="mobile-link-style no-select">Programming</div>
+      </a>
+      <a class="anchorLink kill-link-style" href="#media">
+        <div class="mobile-link-style no-select anchorLink">Media</div>
+      </a>
+      <a class="anchorLink kill-link-style" href="#experience">
+        <div class="mobile-link-style no-select anchorLink">Experience</div>
+      </a>
+      <a class="anchorLink kill-link-style" href="#contact">
+        <div class="mobile-link-style no-select anchorLink">Contact</div>
+      </a>
+    </span>
+
+
+  </div>
+  <div class="col-lg-12 col-centered text-left">
+    <div class="zach-image"></div>
+    <div id="focus-dump" class="description-paragraph">
+      <div class="col-lg-9 col-centered">
+        Hey, my name is Zachary Jordan. I love to create things,
+        and have experience working in many
+        different disciplines. <span class="bold">On this site,
+          I share my projects, art, writing, and anything else I've been working on. I'm always working on something
+          new!</span> It's very easy to get in
+        touch
+        with me. Just shoot me an email at <a href="mailto:zacharyjordan0198@gmail.com" class="hyperlink">zacharyjordan0198@gmail.com</a>
+        and we'll get a
+        conversation going in no time.
+        <!--
+        You can also view my résumé <a class="hyperlink" href="Zach's%20Resume.pdf" target="_blank">here</a>.
+        -->
+      </div>
+    </div>
+  </div>
+
+  <hr class="horizontal_break" />
+
+  <div class="col-lg-12 col-centered text-left adjust-space-small">
+    <div class="focus-header col-centered no-select">FEATURED</div>
+
+    <div class="col col-lg-12 margin-top-small col-centered">
+      <div class="row">
+        <div class="col col-md-12 col-lg-4">
+          <div class="project-box text-center">
+            <img src="img/brockway.png" class="project-picture" />
+            <div class="project-box-header">Brockway Street</div>
+            <div class="project-box-date">October 2018 - Present</div>
+            <div class="project-box-description">Re-inventing streetwear with affordable goods.</div>
+            <a href="https://brockwaystreet.com/" target="_open" class="kill-link-style">
+              <div class="project-button no-select">Visit Site</div>
             </a>
-            <a href="#second_anchor" class="smoothScroll color_reset second_responsive">
-                <div id="option" class="smoothScroll">Projects</div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4">
+          <div class="project-box text-center">
+            <img src="img/contextualize.png" class="project-picture" />
+            <div class="project-box-header">Contextualize Me</div>
+            <div class="project-box-date">September 2018 - Present</div>
+            <div class="project-box-description">Placing global issues in context through education.</div>
+            <a href="https://itunes.apple.com/us/app/contextualize-me/id1436968759?mt=8" target="_open" class="kill-link-style">
+              <div class="project-button margin-right">Apple</div>
             </a>
-            <span id="group_two">
-
-
-                <a href="#third_anchor" class="smoothScroll color_reset first_responsive">
-                    <div id="option" class="smoothScroll">Other</div>
-                </a>
-                <a href="#fourth_anchor" class="smoothScroll color_reset third_responsive">
-                    <div id="option" class="smoothScroll">Topbox Software</div>
-                </a>
-            </span>
+            <a href="https://play.google.com/store/apps/details?id=io.ionic.contextualize" target="_open" class="kill-link-style">
+              <div class="project-button">Android</div>
+            </a>
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4">
+          <div class="project-box text-center">
+            <img src="img/logo.png" class="project-picture" />
+            <div class="project-box-header"> youtube channel</div>
+            <div class="project-box-date">May 2018 - Present</div>
+            <div class="project-box-description">Making education and advocacy videos.</div>
+            <a href="https://www.youtube.com/channel/UCGEWlEUCsPWaIkMNwpNROzQ" target="_blank" class="kill-link-style">
+              <div class="project-button">Watch Videos</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="programming" class="col col-lg-12 col-centered green-box-container">
+        <div class="green-box-header margin-top no-select">PROGRAMMING</div>
+        <div class="green-box-description text-center col col-lg-9 col-centered">
+          A list of my personal programming projects
         </div>
 
+        <div class="row margin-top-large">
+          <div class="col col-lg-8 col-centered">
+            <div class="green-box-project text-center">
+              <div class="contract-work">Check this out</div>
+              <img src="img/brockway.png" class="project-picture" />
+              <div class="green-box-project-header">
+                Brockway Street
+              </div>
+              <div class="project-box-date">October 2018 - Present</div>
+              <div class="project-box-description">Re-inventing streetwear with affordable goods. Officially open for
+                business!</div>
 
-        <div id="section_box">
-            <!-- First anchor point -->
-            <div id="first_anchor"></div>
-
-            <div id="section_header">About</div>
-            <div id="section_content">Hello, my name is <span class="tooltip">Zachary Jordan <span class="tooltiptext">赵善言</span></span>.
-                I am currently a Sophomore attending <a href="https://www.macalester.edu/" target="_blank" class="link">Macalester
-                    College</a>. I love to create things, and as such have extensive experience working on a wide range
-                of projects. I try to work with as many disciplines as possible so that I can be familiar with them
-                all.
-
-
-                <br />
-                <br />
-                It's very easy to get in touch with me. Just shoot me an email at <a href="mailto:zachjordan0198@gmail.com?Subject=Hello!"
-                    target="_top" class="link">Zachjordan0198@gmail.com</a> and we'll get a conversation going in no
-                time. You can also view my r&eacute;sum&eacute; <a class="link" href="Zach's%20Resume.pdf" target="_blank">here</a>.
+              <a href="https://brockwaystreet.com/" target="_open" class="kill-link-style">
+                <div class="project-button no-select">Visit Website</div>
+              </a>
             </div>
-
-
-            <hr class="horizontal_break" />
+          </div>
         </div>
 
-        <div id="section_box" style="position:relative;top:65px;">
-            <!-- Second anchor point -->
-            <div id="second_anchor"></div>
+        <div class="row">
+          <div class="col col-sm-12 col-md-6 col-lg-6 margin-top-large">
+            <div class="green-box-project text-center">
+              <img src="img/contextualize.png" class="project-picture" />
+              <div class="green-box-project-header">
 
-            <div id="section_header">Projects</div>
-            <div id="section_content">
-                I am familiar with a variety of cutting-edge programming languages and development technologies. These
-                include: Java, HTML, CSS, Javascript, C#, Objective C, PHP, Unity 5, Cocos2D, Phaser, XNA, Bootstrap
-                and Skeleton Boilerplate.
-                <br />
-                <br />
-
-                I do my very best to design projects that make people's lives more enjoyable and simple. While this
-                list is by no means exhaustive, it does represent the bulk of my formally published pursuits.
-                <br />
-                <span id="sub_project_header">Personal Projects</span>
-
-                <div id="app_box">
-
-                    <a id="app_title" class="link" onClick="offline()">Don't Touch Anything</a>
-                    <span id="app_date">July 2014 - July 2015</span>
-                    <br />
-                    <img src="touch.png" id="project_picture" />
-                    <span id="app_description">A game about dodging obstacles and collecting coins. It's simple, fast,
-                        and fun.</span>
-
-                </div>
-
-                <div id="app_box">
-                    <a onClick="offline()" target="_blank" id="app_title" class="link">Student Companion</a>
-                    <span id="app_date">August 2014 - August 2017</span>
-                    <br />
-                    <img src="logoStudent.png" id="project_picture" />
-                    <span id="app_description">An interactive toolset that provides students access to a wide set of
-                        educational resources.</span>
-
-                </div>
-
-                <div id="app_box">
-                    <a onClick="offline()" target="_blank" id="app_title" class="link">Lunarcy - A Moon Exploration</a>
-                    <span id="app_date">November 2014 - August 2017</span>
-                    <br />
-                    <img src="moonIcon.png" id="project_picture" />
-                    <span id="app_description">A guided tour of our closest natural satellite.</span>
-
-                </div>
-
-                <div id="app_box">
-                    <a href="Sea/thesea.html" target="_blank" id="app_title" class="link">The Sea</a>
-                    <span id="app_date">March 2015 - Present</span>
-                    <br />
-                    <img src="wave.png" id="project_picture" />
-                    <span id="app_description">An interactive exploration of the ocean's greatest depths.</span>
-
-                </div>
-
-                <div id="app_box">
-                    <a onClick="offline()" target="_blank" id="app_title" class="link">Easy Sleep - A Smarter Way to
-                        Sleep</a>
-                    <span id="app_date">July 2015 - Present</span>
-                    <br />
-                    <img src="easysleep.png" id="project_picture_norad" />
-                    <span id="app_description">Doing away with groggy mornings.</span>
-
-                </div>
-
-                <div id="app_box">
-                    <a onClick="offline()" target="_blank" id="app_title" class="link">Slow Cook</a>
-                    <span id="app_date">July 2015 - Present</span>
-                    <br />
-                    <img src="slowcook.png" id="project_picture" />
-                    <span id="app_description">Making better tasting meals possible for everyone.</span>
-
-                </div>
-
-                <div id="app_box">
-                    <a onClick="offline()" id="app_title" class="link">The Cure It Project [Desktop]</a>
-
-
-                    <span id="app_date">October 2015 - November 2018</span>
-                    <br />
-                    <img src="cureit.png" id="project_picture" />
-                    <span id="app_description">A reimagining of cancer education.</span>
-                </div>
-
-                <div id="app_box">
-                    <a href="https://easyemdr.com" target="_blank" id="app_title" class="link">Easy EMDR</a>
-
-
-                    <span id="app_date">July 2016 - Present</span>
-                    <br />
-                    <img src="eye.jpg" id="project_picture" />
-                    <span id="app_description">A simple, no-frills tool to help those suffering from PTSD, anxiety,
-                        depression, and more. 350,000+ hits and counting!
-                    </span>
-                </div>
-
-                <div id="app_box">
-                    <a href="https://osumpc.github.io/" target="_blank" id="app_title" class="link">OSU MPC</a>
-
-
-                    <span id="app_date">January 2017 - Present</span>
-                    <br />
-                    <img src="microphone.png" id="project_picture" />
-                    <span id="app_description">Providing supporting development for the official Ohio State Music
-                        Producers Club website.
-                    </span>
-                </div>
-
-                <div id="app_box">
-                    <a href="https://brockwaystreet.com/" target="_blank" id="app_title" class="link">Brockway Street</a>
-
-
-                    <span id="app_date">July 2017 - Present</span>
-                    <br />
-                    <img src="brockway.png" id="project_picture" />
-                    <span id="app_description">Re-inventing streetwear with affordable goods.
-                    </span>
-                </div>
-
-                <div id="app_box">
-                    <a href="http://fossilfreemac.com/" target="_blank" id="app_title" class="link">Fossil Free Mac</a>
-
-
-                    <span id="app_date">March 2018 - Present</span>
-                    <br />
-                    <img src="ffm.svg" id="project_picture" />
-                    <span id="app_description">The official website for the campus-wide movement for divestment from
-                        fossil fuels.
-                    </span>
-                </div>
-
-                <div id="app_box">
-                    <a id="app_title" class="link" onClick="contextualizeMe()">Contextualize Me</a>
-                    <span id="app_date">September 2018 - Present</span>
-                    <br />
-                    <img src="icon.png" id="project_picture" />
-                    <span id="app_description">Placing global issues in context, increasing accessibility of top-rated
-                        volunteer and donation opportunities.</span>
-
-                </div>
-
-
-                <div id="app_box">
-                    <a id="app_title" class="link" onClick="comingSoon()">The Cure It Project [Mobile]</a>
-                    <span id="app_date"> Coming Soon</span>
-                    <br />
-                    <img src="cureit.png" id="project_picture" />
-                    <span id="app_description">A mobile hub for the fight against cancer.</span>
-
-                </div>
-
-                <span id="sub_project_header">Contract Work</span>
-                <div id="app_box">
-                    <a href="https://www.schaumburgflyingclub.org" target="_blank" id="app_title" class="link">Schaumburg
-                        Flying Club</a>
-                    <span id="app_date">March 2016 - Present</span>
-                    <br />
-                    <img src="plane.png" id="project_picture" />
-                    <span id="app_description">Official webpage for Schaumburg's aviation enthusiasts.</span>
-                </div>
-
-                <div id="app_box">
-                    <a id="app_title" class="link" onClick="offline()">TonyTosh.Net</a>
-                    <span id="app_date">June 2016 - September 2016</span>
-                    <br />
-                    <img src="gym.png" id="project_picture" />
-                    <span id="app_description">Creating a website for a crossfit and life training startup.</span>
-                </div>
-
-                <div id="app_box">
-                    <a href="https://www.gotitsoftware.com/#/home" target="_blank" id="app_title" class="link" onClick="gotIt()">Got/It
-                        Software</a>
-                    <span id="app_date">September 2016 - Present</span>
-                    <br />
-                    <img src="laptop.png" id="project_picture" />
-                    <span id="app_description">Creating a responsive experience for a local tech startup.</span>
-                </div>
-
+                Contextualize Me
+              </div>
+              <div class="project-box-date">September 2018 - Present</div>
+              <div class="project-box-description">Proving education and increasing accessibility of
+                volunteer and donation opportunities.</div>
+              <a href="https://itunes.apple.com/us/app/contextualize-me/id1436968759?mt=8" target="_open" class="kill-link-style">
+                <div class="project-button margin-right">Apple</div>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=io.ionic.contextualize" target="_open" class="kill-link-style">
+                <div class="project-button">Android</div>
+              </a>
             </div>
-            <br />
+          </div>
 
-            <hr class="horizontal_break" style="position:relative;top:-28px;" />
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-6 margin-top-large">
+            <div class="green-box-project text-center">
+              <img src="img/eye.jpg" class="project-picture" />
+              <div class="green-box-project-header">
+                Easy EMDR
+              </div>
+              <div class="project-box-date">July 2016 - Present</div>
+              <div class="project-box-description">Tool to help those suffering from PTSD, anxiety, depression, and
+                more. 350,000+ hits and counting!</div>
+              <a href="https://easyemdr.com/" target="_open" class="kill-link-style">
+                <div class="project-button no-select">Visit Site</div>
+              </a>
+            </div>
+          </div>
         </div>
 
+        <div class="row">
+          <div class="col col-12 col-sm-12c col-md-6 col-lg-6 margin-top-large">
+            <div class="green-box-project text-center">
+              <img src="img/ffm.svg" class="project-picture" />
+              <div class="green-box-project-header">
 
-        <div id="section_box" style="position:relative; top:40px;">
-            <!-- Second anchor point -->
-            <div id="third_anchor"></div>
-
-            <div id="section_header">Other</div>
-            <div id="section_content">
-
-                I've been lucky enough to attend excellent schools that provide great instruction to help me improve my
-                work. I am currently majoring in Philosophy at Macalester College with a minor in Computer Science.
-                <br />
-                <span id="sub_project_header">Internships</span>
-                <div id="app_box">
-                    <a href="https://www.advancedtech.com" target="_blank" id="app_title" class="link">Advanced
-                        Technology Services</a>
-                    <span id="app_date">June 2016 - August 2016</span>
-                    <br />
-                    <img src="phone.png" id="project_picture" />
-                    <span id="app_description">Working with Angular 2, Bootstrap 3, and ASP.NET to construct websites.</span>
-                </div>
-
-                <span id="sub_project_header">Education</span>
-                <div id="app_box">
-                    <a href="http://fhs.d211.org/" target="_blank" id="app_title" class="link">William Fremd High
-                        School</a>
-                    <span id="app_date">August 2012 - June 2016</span>
-                    <br />
-                    <img src="fremd.png" id="project_picture" />
-                    <span id="app_description">A high school located in Palatine, Illinois.</span>
-                </div>
-
-                <div id="app_box">
-                    <a href="http://www.macalester.edu" target="_blank" id="app_title" class="link">Macalester College</a>
-                    <span id="app_date">August 2016 - Present</span>
-                    <br />
-                    <img src="mac.png" id="project_picture" />
-                    <span id="app_description">A top 25 LAC located in Saint Paul, Minnesota. Philosophy Major,
-                        Computer Science minor.</span>
-                </div>
-
-                <span id="sub_project_header">Educational Projects</span>
-                <div id="app_box">
-                    <a href="https://www.youtube.com/channel/UCGEWlEUCsPWaIkMNwpNROzQ/videos?view_as=subscriber" target="_blank"
-                        id="app_title" class="link">Let's Have A Conversation</a>
-                    <span id="app_date">May 2018 - Present</span>
-                    <br />
-                    <img src="conversation.png" id="project_picture" />
-                    <span id="app_description">Creating research oriented videos that cover underdiscussed topics.</span>
-                </div>
-
-                <span id="sub_project_header">Writing</span>
-                <div id="app_box">
-                    <a href="https://www.elephantjournal.com/now/how-climate-change-hurts-the-most-marginalized-among-us/"
-                        target="_blank" id="app_title" class="link">How Climate Change Hurts The Most Marginalized
-                        Among Us</a>
-                    <span id="app_date">July 2018 - Present</span>
-                    <br />
-                    <img src="elephant.jpg" id="project_picture" />
-                    <span id="app_description">An article about climate change and its impact on already disadvantaged
-                        communities.</span>
-                </div>
-
-                <div id="app_box">
-                    <a href="https://www.elephantjournal.com/now/the-importance-of-universal-empathy/" target="_blank">The
-                        Importance of Universal Empathy</a>
-                    <span id="app_date">July 2018 - Present</span>
-                    <br />
-                    <img src="elephant.jpg" id="project_picture" />
-                    <span id="app_description">An article about the psychology behind disregarding others and the
-                        importance of recognizing this.</span>
-                </div>
-
-                <span id="sub_project_header">Awards</span>
-                <div id="app_box">
-                    <a href="https://codeday.org/chicago" target="_blank" id="app_title" class="link">CodeDay Chicago
-                        2016 - Best Game Award</a>
-                    <span id="app_date">Summer 2016</span>
-                    <br />
-                    <img src="game-controller.png" id="project_picture" />
-                    <span id="app_description">Earning a first place award at my first attendance of CodeDay</span>
-                </div>
-
-                <span id="sub_project_header">Shoutouts</span>
-                <div id="app_box">
-                    <a href="https://open.spotify.com/album/7xFsxKdu03FUVZUj3xtsuy" target="_blank" id="app_title"
-                        class="link">Remake by Jin</a>
-                    <span id="app_date">Spring 2018</span>
-                    <br />
-                    <img src="remake.jpg" id="project_picture" />
-                    <span id="app_description">A fantastic album made by my friend Eugene Kim (Jin).</span>
-                </div>
+                Fossil Free Mac
+              </div>
+              <div class="project-box-date">March 2018 - Present</div>
+              <div class="project-box-description">The official website for the campus-wide movement for divestment
+                from fossil fuels.</div>
+              <a href="https://fossilfreemac.com/" target="_blank" class="kill-link-style">
+                <div class="project-button">Visit Site</div>
+              </a>
             </div>
-            <br />
+          </div>
 
-            <hr class="horizontal_break" style="position:relative;top:-28px;" />
+          <div class="col col-sm-12 col-md-6 col-lg-6 margin-top-large">
+            <div class="green-box-project text-center">
+              <img src="img/wave.png" class="project-picture" />
+              <div class="green-box-project-header">
+
+                The Sea
+              </div>
+              <div class="project-box-date">March 2015 - Present</div>
+              <div class="project-box-description">An interactive exploration of the ocean's greatest depths: the
+                Mariana Trench</div>
+              <a href="Sea/thesea.html" target="_open" class="kill-link-style">
+                <div class="project-button no-select">Visit Site</div>
+              </a>
+            </div>
+          </div>
         </div>
 
-        <br />
+        <div class="col col-lg-8 margin-top-large text-center col-centered">
+          <div class="section-header white-text">Retired projects — may come back someday</div>
+        </div>
+        <div class="col col-lg-10 col-centered">
 
-        <div id="section_box" style="position:relative;top:-20px;">
-            <!-- Fourth anchor point -->
-            <div id="fourth_anchor"></div>
+          <div class="col col-lg-10 col-centered">
+            <div class="row">
 
-            <div id="section_header">Topbox Software</div>
-            <div id="section_content">
+              <div class="col col-12 col-md-6 col-lg-6 col-centered eliminate-margin-pad margin-top-tiny">
+                <div class="extra-projects-box">
 
-                I co-founded Topbox Software when I was 16 years old with my friend, <a href="http://itaparia.github.io"
-                    target="_blank" class="link">Ishan Taparia</a>. Ishan and I began developing applications in the
-                summer of 2014, and achieved legal entity status in the fall of 2015. We regularly produce apps,
-                websites, games, and everything in between...most of it for free. You can click the buttons below to
-                check us out.
+                  <div class="row-date">October 2015 - November 2018 </div>
 
-                <div id="center_buttons">
-                    <div id="store_button" class="app_store_color no_selection slight_margin" onClick=" swal({   title: 'Coming Soon!',   text: 'This button will be functional soon!',   allowOutsideClick: true,  type: 'error',   confirmButtonText:'Alright' });">App
-                        Store</div>
-                    <div id="store_button" class="play_store_color no_selection" onClick="window.open('https://play.google.com/store/apps/developer?id=TopBox%20Software&hl=en')">Google
-                        Play Store</div>
+                  <div class="row-title">The Cure It Project</div>
+
+                  <div class="black-text">A reimagining of cancer education.</div>
+
                 </div>
-                <hr class="horizontal_break" style="position:relative;top:0px;" />
-            </div>
-            <div class="img-wrapper">
-                <a href="https://github.com/ZacharyJordan" target="_blank"><img class="icon" src="github-box.png" /></a>
-                <a href="mailto:zachjordan0198@gmail.com?Subject=Hello!" target="_top"><img class="icon" src="email.png" /></a>
-            </div>
-            <br />
-            <div id="footer_element">&#169
-                Copyright 2018 Zachary Jordan.
-                <span class="center_when_small">All Rights Reserved.</span>
-            </div>
+              </div>
+              <div class="col col-12 col-md-6 col-lg-6 col-centered eliminate-margin-pad margin-top-tiny">
+                <div class="extra-projects-box">
 
-            <br />
+                  <div class="row-date">July 2015 - July 2017 </div>
+
+                  <div class="row-title">Slow Cook</div>
+
+                  <div class="black-text">Preparing better tasting meals :)</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col col-lg-10 col-centered">
+            <div class="row">
+              <div class="col col-12 col-md-6 col-lg-6 col-centered eliminate-margin-pad margin-top-tiny">
+                <div class="extra-projects-box">
+
+                  <div class="row-date">July 2015 - July 2017</div>
+
+                  <div class="row-title">Easy Sleep</div>
+
+                  <div class="black-text">Doing away with groggy mornings.</div>
+
+                </div>
+
+              </div>
+              <div class="col col-12 col-md-6 col-lg-6 col-centered eliminate-margin-pad margin-top-tiny">
+                <div class="extra-projects-box">
+
+                  <div class="row-date">November 2014 - August 2017 </div>
+
+                  <div class="row-title">Lunarcy</div>
+
+                  <div class="black-text">Tour of our closest natural satellite.</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-lg-10 col-centered">
+            <div class="row">
+              <div class="col col-12 col-md-6 col-lg-6 col-centered eliminate-margin-pad margin-top-tiny">
+                <div class="extra-projects-box">
+
+                  <div class="row-date">August 2014 - August 2017 </div>
+
+                  <div class="row-title">Student Companion</div>
+
+                  <div class="black-text">Providing educational resources.</div>
+
+                </div>
+
+              </div>
+              <div class="col col-12 col-md-6 col-lg-6 col-centered eliminate-margin-pad margin-top-tiny">
+                <div class="extra-projects-box">
+
+                  <div class="row-date">July 2014 - July 2015 </div>
+
+                  <div class="row-title">Don't Touch Anything</div>
+
+                  <div class="black-text">A fast paced action game.</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
 
 
         </div>
+      </div>
+
+
+
+      <div id="media" class="col col-lg-12 col-centered white-background green-box-container">
+        <div class="focus-header col-centered no-select">MEDIA</div>
+        <div class="green-box-description black-text text-center col col-lg-9 col-centered">
+          A list of my art, videos, and writing.
+        </div>
+
+        <div class="row margin-top-large">
+
+          <div class="col col-12 col-md-12 col-lg-8 col-centered">
+            <div class="green-box-project white-box-project text-center">
+              <img src="img/logo.png" class="project-picture" />
+              <div class="green-box-project-header">
+                Let's have a conversation
+              </div>
+              <div class="project-box-date">July 2018 - Present</div>
+              <div class="project-box-description">Making research oriented education and advocacy videos.</div>
+
+              <a href="https://www.youtube.com/channel/UCGEWlEUCsPWaIkMNwpNROzQ" target="_open" class="kill-link-style">
+                <div class="project-button no-select">Watch Videos</div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col col-12 col-md-12 col-lg-8 margin-top-large text-center col-centered">
+            <div class="section-header">Writing for Elephant Journal</div>
+          </div>
+
+          <div class="col col-12 col-md-12 col-lg-8 col-centered row-box">
+            <a class="hyperlink" href="https://www.elephantjournal.com/now/how-climate-change-hurts-the-most-marginalized-among-us/"
+              target="_blank">
+              <div class="row-date">July 2018 - Present</div>
+
+              <div class="row-title">How Climate Change Hurts The Most Marginalized Among Us &#8594;</div>
+
+              <div>An article about climate change and its impact on already disadvantaged communities.</div>
+            </a>
+          </div>
+          <div class="col col-12 col-md-12 col-lg-8 col-centered row-box">
+            <a class="hyperlink" href="https://www.elephantjournal.com/now/the-importance-of-universal-empathy/" target="_blank">
+              <div class="row-date">July 2018 - Present</div>
+
+              <div class="row-title">The Importance of Universal Empathy &#8594;</div>
+
+              <div>Writing about the psychology behind disregarding others and the importance of recognizing this.</div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="experience" class="col col-lg-12 col-centered green-box-container">
+        <div class="green-box-header margin-top no-select">EXPERIENCE</div>
+        <div class="green-box-description text-center col col-lg-9 col-centered">
+          Education, work experience, and contracting jobs that I've taken
+        </div>
+        <div class="row margin-top-large">
+          <div class="col col-lg-8 col-centered">
+            <div class="green-box-project text-center">
+              <div class="contract-work">Education</div>
+              <img src="img/mac.png" class="project-picture" />
+              <div class="green-box-project-header">
+                Macalester College
+              </div>
+              <div class="project-box-date">August 2016 - Present</div>
+              <div class="project-box-description">Top Liberal Arts College in Saint Paul, Minnesota. Currently in my
+                junior year. Philosophy
+                major, computer
+                science minor.</div>
+
+              <a href="https://www.macalester.edu/" target="_open" class="kill-link-style">
+                <div class="project-button no-select margin-right">Visit Website</div>
+              </a>
+              <!--
+              <a href="Zach's%20Resume.pdf" target="_blank" target="_open" class="kill-link-style">
+                <div class="project-button no-select">View Resume</div>
+              </a>
+            -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-6 col-12 col-lg-6 margin-top-large">
+            <div class="white-box-project text-center">
+              <div class="contract-work">CONTRACT WORK</div>
+              <img src="img/laptop.png" class="project-picture" />
+              <div class="green-box-project-header">
+                Got/It Software
+              </div>
+              <div class="project-box-date">September 2016 - Present</div>
+              <div class="project-box-description">Creating a responsive experience for a local tech startup.</div>
+              <a href="https://www.gotitsoftware.com/#/home" target="_blank" class="kill-link-style">
+                <div class="project-button">Visit Site</div>
+              </a>
+            </div>
+          </div>
+          <div class="col col-md-6 col-12 col-lg-6 margin-top-large">
+            <div class="white-box-project text-center">
+              <div class="contract-work">CONTRACT WORK</div>
+              <img src="img/plane.png" class="project-picture" />
+              <div class="green-box-project-header">
+
+                Flying Club
+              </div>
+              <div class="project-box-date">March 2016 - Present</div>
+              <div class="project-box-description">Official webpage for Schaumburg's aviation enthusiasts.</div>
+              <a href="https://www.schaumburgflyingclub.org/" target="_blank" class="kill-link-style">
+                <div class="project-button">Visit Site</div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col col-md-12 col-12 col-lg-8 margin-top-large text-center col-centered">
+            <div class="section-header white-text">Internships, Awards, and Miscellaneous</div>
+          </div>
+          <div class="col col-md-10 col-lg-12 col-centered">
+
+            <div class="col col-lg-11 col-centered">
+              <div class="row">
+                <div class="col col-10 col-lg-8 margin-top-tiny col-centered row-box white-box">
+                  <a class="hyperlink" href="https://www.advancedtech.com/" target="_blank">
+                    <div class="row-date">JUNE 2016 - AUGUST 2016 INTERNSHIP </div>
+
+                    <div class="row-title">Advanced Technology Services &#8594;</div>
+
+                    <div class="black-text">Working with Angular 2, Bootstrap 3, and ASP.NET to construct websites.</div>
+                  </a>
+                </div>
+
+                <div class="col col-10 col-lg-8 margin-top-tiny col-centered row-box white-box">
+                  <a class="hyperlink" href="https://codeday.org/chicago" target="_blank">
+                    <div class="row-date">SUMMER 2016 AWARD</div>
+
+                    <div class="row-title">CodeDay Chicago 2016: Best game award &#8594;</div>
+
+                    <div class="black-text">Earning a first place award at my first attendance of CodeDay</div>
+                  </a>
+                </div>
+
+                <div class="col col-10 col-lg-8 margin-top-tiny col-centered row-box white-box">
+                  <a class="hyperlink" href="https://adc.d211.org/Domain/9" target="_blank">
+                    <div class="row-date">HIGH SCHOOL EDUCATION</div>
+
+                    <div class="row-title">William Fremd High School &#8594;</div>
+
+                    <div class="black-text">A high school located in Palatine, Illinois.</div>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="contact" class="col col-lg-12 col-centered white-background green-box-container">
+        <div class="focus-header col-centered no-select">CONTACT ME</div>
+
+        <form class="col col-lg-9 form-style col-centered text-center margin-top" action="https://formspree.io/zacharyjordan0198@gmail.com"
+          method="POST">
+          <div class="green-box-description white-text text-center col col-lg-9 col-centered">
+            Questions? Comments? Hate mail? You're in the right place :)
+          </div>
+          <div class="margin-top">
+            <input class="form-input" placeholder="Your Name" type="text" name="name" required>
+          </div>
+          <div class="margin-top">
+            <input class="form-input" placeholder="Your Email" type="email" name="_replyto" required>
+          </div>
+          <div class="margin-top">
+            <textarea class="form-input text-area" name="Customer Message" id="exampleTextarea" rows="3" placeholder="Enter message"
+              required></textarea>
+          </div>
+          <div>
+            <input style="font-weight:bold;" class="white-button no-select submit-button" type="submit" value="Send Message">
+          </div>
+
+
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-element text-center">&#169
+    Copyright 2018 Zachary Jordan.
+    <span class="center-when-small">All Rights Reserved.</span>
+  </div>
+
+
+
+  </div>
+
+
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <!--
+      <div>Icons made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      removeFocus();
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+
+    });
+
+    $('a').click(function () {
+      removeFocus()
+      $('html, body').animate({
+        scrollTop: $($(this).attr('href')).offset().top
+      }, 500);
+      return false;
+    });
+
+    function removeFocus() {
+      document.getElementById("first-nav").blur();
+      document.getElementById("second-nav").blur();
+      document.getElementById("third-nav").blur();
+      document.getElementById("fourth-nav").blur();
+    }
+
+  </script>
 </body>
 
 </html>

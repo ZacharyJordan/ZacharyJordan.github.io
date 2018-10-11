@@ -27,6 +27,7 @@ a
 {
 	position: absolute;
 	color:#17202A;
+	font-weight: bold;
 	font-size:20px;
 	left:10px;
 	top:10px;
@@ -103,6 +104,7 @@ a
 
 #title_text
 {
+	font-weight: bold;
 	position: absolute;
 	width:100%;
 	text-align:center;
@@ -111,9 +113,9 @@ a
     right:0;
     margin-left:auto;
     margin-right:auto;
-	font-size:80px;
+	font-size:75px;
 	
-	font-weight:lighter;
+
 	z-index:2;
 }
 
@@ -132,9 +134,10 @@ a
     right:0;
     margin-left:auto;
     margin-right:auto;
-	font-size:40px;
-	font-weight:lighter;
+	font-size:35px;
+	font-weight:bold;
 	z-index:2;
+	transition: color .3s;
 }
 
 #sub_title_text:hover
