@@ -164,6 +164,7 @@ button:focus {
     margin-left: auto;
     margin-top:4vh;
     margin-right: auto;
+    background-position: 0px center;
     width:290px;
     height:290px;
     border-radius: 100%;
