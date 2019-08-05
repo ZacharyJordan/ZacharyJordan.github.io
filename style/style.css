@@ -449,6 +449,12 @@ button:focus {
 
 }
 
+.project-picture-larger
+{
+    height:75px !important;
+    width:75px !important;
+}
+
 .project-picture
 {
     margin-bottom: 5px;
@@ -461,6 +467,11 @@ button:focus {
     position: relative;
     left:0;
     right:0;
+}
+
+.project-picture:hover
+{
+    border-color:transparent;
 }
 
 .project-box-header
